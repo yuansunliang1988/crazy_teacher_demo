@@ -1,0 +1,1355 @@
+Local Date: 10‘¬ 23 2019 Local Time: 11:35:42
+Build info: Aug 28 2019 16:19:29 r
+
+INFO    11:35:42:637  21868; [rp] {"rtc.channel_profile":1}
+INFO    11:35:42:637  21868; [rp] {"rtc.video.enabled":true}
+INFO    11:35:42:637  21868; API call to enable video
+INFO    11:35:42:638  21868; [rp] {"rtc.client_role":1}
+INFO    11:35:42:638  21868; set client role to broadcaster
+INFO    11:35:42:640  21868; [rlbs/u] responsed from 52.80.192.229:9700 with servers 150.138.153.21:8913
+INFO    11:35:42:640  21868; [rs] updateServers 150.138.153.21:8913, priority 3
+INFO    11:35:42:640  21868; [rs] updateServers 150.138.141.231:8913, priority 3
+INFO    11:35:42:640  21868; [rs] updateServers 58.218.179.199:8913, priority 3
+INFO    11:35:42:641  21868; [dns] parsed ip 183.134.68.101
+INFO    11:35:42:641  21868; [dns] parsed ip 42.81.57.169
+INFO    11:35:42:641  21868; [rs] dns parse result code: 0, servers size: 2
+INFO    11:35:42:641  21868; [rs] updateServers 183.134.68.101:8000, priority 2
+INFO    11:35:42:641  21868; [rs] updateServers 42.81.57.169:8000, priority 2
+INFO    11:35:42:642  21868; [dns] parsed ip 101.201.199.195
+INFO    11:35:42:642  21868; [dns] parsed ip 47.107.39.93
+INFO    11:35:42:642  21868; [dns] parsed ip 47.244.4.122
+INFO    11:35:42:642  21868; [dns] parsed ip 47.96.234.219
+INFO    11:35:42:642  21868; [dns] parsed ip 106.75.87.94
+INFO    11:35:42:642  21868; [dns] parsed ip 106.75.133.43
+INFO    11:35:42:642  21868; [dns] parsed ip 118.190.148.38
+INFO    11:35:42:642  21868; [ap] onParsedDns with err 0, 101.201.199.195, 47.107.39.93, 47.244.4.122, 47.96.234.219, 106.75.87.94, 106.75.133.43, 118.190.148.38, 
+INFO    11:35:42:666  21868; [ap/u] **responsed from 47.107.39.93:25000, CDS(8).
+INFO    11:35:42:666  21868; [ap] onAPCdsRes success with config: ∏∆êØﬂ‘⁄§ó—˙ œü·íñ≤¬€‹≠∆…‚ÉÖëæ
+INFO    11:35:42:666  21868; [cs] applied directly: {"configs":{},"version":"27"}, elapsed: 0
+INFO    11:35:42:667  21868; CacheManager: save cache to storage elapsed 0
+INFO    11:35:42:668  21868; [ap/u] **responsed from 47.107.39.93:25000, TDS(64).
+INFO    11:35:42:668  21868; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    11:35:42:670  21868; [ap/u] **responsed from 54.223.118.211:1080, CDS(8).
+INFO    11:35:42:670  21868; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    11:35:42:710  21868; [ap/u] **responsed from 47.74.211.17:8000, CDS(8).
+INFO    11:35:42:710  21868; [ap/u] **responsed from 47.74.211.17:8000, TDS(64).
+INFO    11:35:47:367  21868; [rs] **report stats: seq: 13, report list size 1, tx/rx: 1821/576, cache size: 0
+INFO    11:36:13:209  20596; API call to setVideoProfileEx 1280x720 30 fps 1000 kbps
+INFO    11:36:13:210  20596; API call to setupLocalVideo 0001170A
+INFO    11:36:13:210  21868; [rp] {"che.video.localViewMirrorSetting":"disableMirror"}
+INFO    11:36:13:210  21868; [rp] {"che.hardware_encoding":1}
+INFO    11:36:13:211  21868; [rp] {"che.video.has_intra_request":false}
+INFO    11:36:13:215  20596; [API] userManagerPendingView: user 0 window 71434
+INFO    11:36:13:216  20596; API call to start preview
+INFO    11:36:13:216  20596; API call to join channel 'ttt' uid 0, SDK ver 2.3.2.101 build 2264, device info 'Dell Inc./G3 3579/x64-based PC/Windows 6.2.9200'
+INFO    11:36:13:216  21868; [API] userManagerBindUserView: user 0 mode 2 window 71434
+INFO    11:36:13:216  21868; Create participant 0
+INFO    11:36:13:217  21868; [rp] {"rtc.video.preview":true}
+INFO    11:36:13:217  21868; API call to start video preview
+INFO    11:36:13:217  21868; addRef of media engine, ref=1
+INFO    11:36:13:220  21868; [che] create chat engine, ctx:00000000
+INFO    11:36:13:220  21868; [MYDEBUG] large group call false
+INFO    11:36:13:220  21868; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    11:36:13:220  21868; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    11:36:13:221  21868; engine git commit version:8efca278c and branch:(HEAD
+INFO    11:36:13:234  21868; output: kPlatformDefaultAudio
+INFO    11:36:13:235  21868; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    11:36:13:240  21868; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    11:36:13:251  21868; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    11:36:13:251  21868; [WIN_CORE] #rendering endpoint devices (counting all): 2
+INFO    11:36:13:251  21868; [WIN_CORE] ++Endpoint  0:
+INFO    11:36:13:251  21868; [WIN_CORE] ID string    : {0.0.0.00000000}.{7663e019-46ed-44bb-9de8-52500cde6b12}
+INFO    11:36:13:252  21868; [WIN_CORE] friendly name: "C27F390 (NVIDIA High Definition Audio)"
+INFO    11:36:13:252  21868; [WIN_CORE] state (0x2)  : DISABLED
+INFO    11:36:13:252  21868; [WIN_CORE] ++Endpoint  1:
+INFO    11:36:13:252  21868; [WIN_CORE] ID string    : {0.0.0.00000000}.{d8c6aafc-db99-4ac4-8b29-d1535345252f}
+INFO    11:36:13:252  21868; [WIN_CORE] friendly name: "Speakers/Headphones (Realtek(R) Audio)"
+INFO    11:36:13:253  21868; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    11:36:13:253  21868; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    11:36:13:256  21868; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    11:36:13:256  21868; [WIN_CORE] #capturing endpoint devices (counting all): 2
+INFO    11:36:13:256  21868; [WIN_CORE] ++Endpoint  0:
+INFO    11:36:13:256  21868; [WIN_CORE] ID string    : {0.0.1.00000000}.{a3daa5f0-ea51-4a9b-80e2-1c325e5cca26}
+INFO    11:36:13:256  21868; [WIN_CORE] friendly name: "È∫¶ÂÖãÈ£é (Realtek(R) Audio)"
+INFO    11:36:13:256  21868; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    11:36:13:256  21868; [WIN_CORE] ++Endpoint  1:
+INFO    11:36:13:256  21868; [WIN_CORE] ID string    : {0.0.1.00000000}.{be827221-a2b0-41c4-827c-58af0c3bc894}
+INFO    11:36:13:257  21868; [WIN_CORE] friendly name: "Á´ã‰ΩìÂ£∞Ê∑∑Èü≥ (Realtek(R) Audio)"
+INFO    11:36:13:257  21868; [WIN_CORE] state (0x2)  : DISABLED
+INFO    11:36:13:257  21868; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    11:36:13:264  21868; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    11:36:13:264  21868; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    11:36:13:268  21868; audio jitterbuffer new smooth
+INFO    11:36:13:275  21868;   OS info: Microsoft  (build 9200), 64-bit
+INFO    11:36:13:282  21868; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "Speakers/Headphones (Realtek(R) Audio)"
+INFO    11:36:13:303  21868; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "È∫¶ÂÖãÈ£é (Realtek(R) Audio)"
+INFO    11:36:13:312  21868; StereoPlayoutIsAvailable(), output: available=1
+INFO    11:36:13:312  21868; StereoRecordingIsAvailable(), output: available=1
+INFO    11:36:13:313  22488; Thread with name:EngineMonitorThread started 
+INFO    11:36:13:313  21868; RegisterVolumeNotify
+INFO    11:36:13:313  21868; setMuteStatus, muted: Off
+INFO    11:36:13:314  21868; setMuteOutput, muted: false
+INFO    11:36:13:314  21868; Audio Engine Init success
+INFO    11:36:13:315  21868; Available number of cores:12
+INFO    11:36:13:325  21868; PipelineManager::SetDest  engine = 1F6A8BA8
+INFO    11:36:13:325  21868; agora::media::VideoEngine::CreateVideoSendTrack
+INFO    11:36:13:325  21868; agora::media::VideoEngine::init: feature prerotation enabled
+INFO    11:36:13:351  21868; Camera Name:Integrated Webcam
+INFO    11:36:13:351  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:13:351  21868; Agora Engine video codec set to standard mode role mode 2
+INFO    11:36:13:351  21868; Agora Engine video codec index 1
+INFO    11:36:13:351  21868; Agora Engine video stream type = 0
+INFO    11:36:13:354   2092; Thread with name:VideoEncodeThread started 
+INFO    11:36:13:354  21868; Device type: 0
+INFO    11:36:13:354  21868; start check hardware ability
+INFO    11:36:13:546  21868; checker hardware sucess. current encoder:1
+INFO    11:36:13:546  21868; last unique frame idx: -1 - -1
+INFO    11:36:13:546  21868; Device type: 0
+INFO    11:36:13:546  21868; start check hardware ability
+INFO    11:36:13:740  21868; checker hardware sucess. current encoder:1
+INFO    11:36:13:740  21868; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+INFO    11:36:13:740  21868; low bit rate limit 3758096384
+INFO    11:36:13:741  21868; dont need to increase unique frame idx
+INFO    11:36:13:741  21868; the init unique frame idx: -1 - -1
+INFO    11:36:13:741  13876; Thread with name:VideoProcessThread started 
+INFO    11:36:13:741  21868; agora::media::VideoEngine::setCodec: index=1 width=640 height=360 framerate=15
+INFO    11:36:13:741  21868; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:36:13:741  21868; agora::media::VideoEngine::h264WebInteropEnable: enable 0
+INFO    11:36:13:741  21868; agora::media::VideoEngine::setCaptureDevice: index=0
+INFO    11:36:13:757  21868; Camera Name:Integrated Webcam
+INFO    11:36:13:757  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:13:758  21868; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=0
+INFO    11:36:13:758  21868; video fec method 1
+INFO    11:36:13:758  21868; dynamic sending rate control enabled 0.
+
+INFO    11:36:13:758  21868; videoEngine created and initialize here
+INFO    11:36:13:758  21868; agora::media::VideoEngine::CreateVideoSendTrack
+INFO    11:36:13:758  21868; [MIO] updateCapturer: (00000000), type:(1)
+INFO    11:36:13:758  21868; agora::media::VideoEngine::setCaptureDeviceWithNoOption: index=0
+INFO    11:36:13:790  21868; Camera Name:Integrated Webcam
+INFO    11:36:13:790  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:13:790  21868; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    11:36:13:790  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=1FC94FC0
+INFO    11:36:13:790  21868; agora::media::VideoEngine::CreateVideoCapturer: interface=1FC94FC0
+INFO    11:36:13:795  21868; [MIO] updateLocalRender: (00000000), type:(1)
+INFO    11:36:13:795  21868; agora::media::VideoEngine::CreateAgoraDefaultRender
+INFO    11:36:13:795  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateRenderer, renderer=10786FE0
+INFO    11:36:13:795  21868; agora::media::VideoEngine::CreateVideoRenderer: interface=10786FE0
+INFO    11:36:13:795  21868; [MIO] video send track prepared !!
+INFO    11:36:13:795  21868; [che] applyVideoProfile: 1280x720 30 fps 1714 kbps, min 1 kbps orientationMode 2068281744
+INFO    11:36:13:795  21868; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 1280x720, fps 30, rate 1714000
+WARN    11:36:13:795  21868; agora::media::VideoEngine::validateVideoParameters: rate 1714000 too small, clip to a larger value.
+INFO    11:36:13:828  21868; Camera Name:Integrated Webcam
+INFO    11:36:13:828  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:13:828  21868; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=1714836
+INFO    11:36:13:828  21868; agora::media::VideoEngine::setCodecRates: set frame rate to 30
+INFO    11:36:13:828  21868; agora::media::VideoEngine::setCodec: index=1 width=640 height=360 framerate=30
+INFO    11:36:13:828  21868; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:36:13:828   2092; Thread with name:VideoEncodeThread stopped
+INFO    11:36:13:829   7608; Thread with name:VideoEncodeThread started 
+INFO    11:36:13:829  21868; Device type: 0
+INFO    11:36:13:829  21868; start check hardware ability
+INFO    11:36:14:010  21868; checker hardware sucess. current encoder:1
+INFO    11:36:14:010  21868; last unique frame idx: -1 - -1
+INFO    11:36:14:010  21868; Device type: 0
+INFO    11:36:14:010  21868; start check hardware ability
+INFO    11:36:14:192  21868; checker hardware sucess. current encoder:1
+INFO    11:36:14:192  21868; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+INFO    11:36:14:192  21868; low bit rate limit 0
+INFO    11:36:14:192  21868; set last big unique frame idx: -1
+INFO    11:36:14:192  21868; set last small unique frame idx: -1
+INFO    11:36:14:192  21868; the init unique frame idx: -1 - -1
+INFO    11:36:14:192  21868; SetTargetWidthHeight width:640, height:360
+INFO    11:36:14:192  21868; agora::media::VideoEngine::setCodecResolution: set to 1280 x 720
+INFO    11:36:14:192  21868; agora::media::VideoEngine::setCodec: index=1 width=1280 height=720 framerate=30
+INFO    11:36:14:192  21868; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:36:14:192   7608; Thread with name:VideoEncodeThread stopped
+INFO    11:36:14:193  13824; Thread with name:VideoEncodeThread started 
+INFO    11:36:14:193  21868; Device type: 0
+INFO    11:36:14:193  21868; start check hardware ability
+INFO    11:36:14:372  21868; checker hardware sucess. current encoder:1
+INFO    11:36:14:372  21868; last unique frame idx: -1 - -1
+INFO    11:36:14:372  21868; Device type: 0
+INFO    11:36:14:372  21868; start check hardware ability
+INFO    11:36:14:553  21868; checker hardware sucess. current encoder:1
+INFO    11:36:14:553  21868; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+INFO    11:36:14:553  21868; low bit rate limit 0
+INFO    11:36:14:555  21868; set last big unique frame idx: -1
+INFO    11:36:14:555  21868; set last small unique frame idx: -1
+INFO    11:36:14:555  21868; the init unique frame idx: -1 - -1
+INFO    11:36:14:555  21868; SetTargetWidthHeight width:1280, height:720
+INFO    11:36:14:555  21868; Set broadcast min br to -1.
+INFO    11:36:14:555  21868; [che] chat engine initialized
+INFO    11:36:14:555  21868; [che] applyVideoProfile: 1280x720 30 fps 1714 kbps, min 1 kbps orientationMode 440217392
+INFO    11:36:14:555  21868; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 1280x720, fps 30, rate 1714000
+WARN    11:36:14:555  21868; agora::media::VideoEngine::validateVideoParameters: rate 1714000 too small, clip to a larger value.
+INFO    11:36:14:589  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:589  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:589  21868; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=1714836
+INFO    11:36:14:589  21868; agora::media::VideoEngine::setCodecRates: set frame rate to 30
+INFO    11:36:14:589  21868; agora::media::VideoEngine::setCodec: index=1 width=1280 height=720 framerate=30
+INFO    11:36:14:589  21868; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:36:14:589  21868; agora::media::VideoEngine::setCodecResolution: set to 1280 x 720
+INFO    11:36:14:589  21868; Set broadcast min br to -1.
+INFO    11:36:14:627  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:627  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:627  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=1FC94FC0
+WARN    11:36:14:627  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    11:36:14:664  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:664  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:664  21868; agora::media::VideoEngine::startCapture: device? 0 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    11:36:14:698  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:698  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:714  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:714  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:714  21868; [rtpSender] set paced sender status 0.
+
+INFO    11:36:14:763  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:763  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:779  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:779  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:811  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:811  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:812  21868; AgoraVideoInput::agora::AgoraVideoInput::Init thread=0, type=100, device=\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:812  21868; AgoraCameraCapture::agora::AgoraCameraCapture::Initialize, device=\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:849  21868; Camera Name:Integrated Webcam
+INFO    11:36:14:849  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:14:951  21868; Camera capability, width:1280 height:720 type:10 fps:30
+INFO    11:36:14:951  21868; Camera capability, width:960 height:540 type:10 fps:30
+INFO    11:36:14:952  21868; Camera capability, width:848 height:480 type:10 fps:30
+INFO    11:36:14:952  21868; Camera capability, width:1280 height:720 type:10 fps:30
+INFO    11:36:14:952  21868; Camera capability, width:640 height:480 type:2 fps:30
+INFO    11:36:14:952  21868; Camera capability, width:160 height:120 type:2 fps:30
+INFO    11:36:14:953  21868; Camera capability, width:320 height:180 type:2 fps:30
+INFO    11:36:14:953  21868; Camera capability, width:320 height:240 type:2 fps:30
+INFO    11:36:14:953  21868; Camera capability, width:424 height:240 type:2 fps:30
+INFO    11:36:14:953  21868; Camera capability, width:640 height:360 type:2 fps:30
+INFO    11:36:14:954  21868; Camera capability, width:1280 height:720 type:2 fps:10
+INFO    11:36:14:954  21868; CreateCapabilityMap 11
+INFO    11:36:15:041  21868; capture type:ds capture nRet =1,dscaptrue=0
+ERROR   11:36:15:041  21868; AgoraVideoInput::agora::AgoraVideoInput::Init unable to initialize capturer
+ERROR   11:36:15:041  21868; agora::media::VideoEngine::startCapture: failed to initialize camera, camIndex = 0
+ERROR   11:36:15:041  21868; [che] Unable to start capture video, res=-1
+INFO    11:36:15:041  21868; video agora::media::VideoEngine::setPeerVideoMuteStatus: uid 0 muted 0
+INFO    11:36:15:042  21868; ***CALL BEGIN: appid:'96****************************e8' cname:'ttt' info:'{"owner":true,"width":640,"height":480,"bitrate":500}' sid:'D6F83418A442438A8DFFEA0FF77A8B8A'
+INFO    11:36:15:042  21868; addRef of media engine, ref=2
+INFO    11:36:15:053  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 10
+INFO    11:36:15:053  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 7
+INFO    11:36:15:053  21868; [tactics] version:2.3.2.101 maxBitrate:1714 1280X720 30 fps needHandle:1
+INFO    11:36:15:055  21868; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    11:36:15:055  21868; [tactics] parse config for beckon error for tactics size:15
+INFO    11:36:15:090  21868; [vocs] vocs initialized
+INFO    11:36:15:093  21868; CacheManager: save cache to storage elapsed 1
+INFO    11:36:15:093  21868; [cm] emit join channel signal, size=3
+INFO    11:36:15:093  21868; [cm] connection state changed from 1 to 2
+INFO    11:36:15:094  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 10
+INFO    11:36:15:094  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 7
+INFO    11:36:15:095  21868; [tactics] version:2.3.2.101 maxBitrate:1714 1280X720 30 fps needHandle:1
+INFO    11:36:15:095  21868; [vocs] lookup channel...
+INFO    11:36:15:095  21868; [vocs] selected: 106.14.12.130:8000
+INFO    11:36:15:095  21868; connecting to 106.14.12.130:8000 handle 27125ef0, 2508
+INFO    11:36:15:095  21868; [vocs] report bitrate: a/v/t: 50/1714/1764
+INFO    11:36:15:095  21868; [vocs] creating channel with 106.14.12.130:8000, ts 1571801775095.......
+INFO    11:36:15:095  21868; [vocs] selected: 47.244.4.122:1080
+INFO    11:36:15:095  21868; [vocs] report bitrate: a/v/t: 50/1714/1764
+INFO    11:36:15:095  21868; [vocs] creating channel with 47.244.4.122:1080, ts 1571801775095.......
+INFO    11:36:15:095  21868; [vocs] selected: 54.223.118.211:25000
+INFO    11:36:15:095  21868; [vocs] report bitrate: a/v/t: 50/1714/1764
+INFO    11:36:15:095  21868; [vocs] creating channel with 54.223.118.211:25000, ts 1571801775095.......
+INFO    11:36:15:095  21868; [ap] selected: 118.190.148.38:8000
+INFO    11:36:15:096  21868; connecting to 118.190.148.38:8000 handle 27161ef0, 2536
+INFO    11:36:15:096  21868; [ap] creating channel with 118.190.148.38:8000, ts 55419898, flag: 2
+INFO    11:36:15:096  21868; [ap] selected: 106.75.87.94:1080
+INFO    11:36:15:096  21868; [ap] creating channel with 106.75.87.94:1080, ts 55419898, flag: 2
+INFO    11:36:15:096  21868; [ap] selected: 47.244.4.122:25000
+INFO    11:36:15:096  21868; [ap] creating channel with 47.244.4.122:25000, ts 55419898, flag: 2
+INFO    11:36:15:097  21868; [dns] parsed ip 106.75.87.94
+INFO    11:36:15:097  21868; [dns] parsed ip 106.75.133.43
+INFO    11:36:15:097  21868; [dns] parsed ip 118.190.148.38
+INFO    11:36:15:097  21868; [dns] parsed ip 101.201.199.195
+INFO    11:36:15:097  21868; [dns] parsed ip 47.107.39.93
+INFO    11:36:15:097  21868; [dns] parsed ip 47.244.4.122
+INFO    11:36:15:097  21868; [dns] parsed ip 47.96.234.219
+INFO    11:36:15:121  21868; [vocs/t] tcp create channel connected with 0C056F50
+INFO    11:36:15:121  21868; [vocs] report bitrate: a/v/t: 50/1714/1764
+INFO    11:36:15:121  21868; [vocs] tcp - creating channel with 106.14.12.130:8000, ts 1571801775121.......
+INFO    11:36:15:137  21868; [vocs/u] **responsed from 106.14.12.130:8000, 3 vos, elapsed 1921, server ts 1571801775071, wan ip 183******123
+INFO    11:36:15:139  21868; [vos] added server: 115.236.96.4:4013
+INFO    11:36:15:139  21868; [vos] added server: 183.134.68.115:4011
+INFO    11:36:15:139  21868; [vos] added server: 183.134.68.100:4008
+INFO    11:36:15:145  21868; [ch0] vos initialized
+INFO    11:36:15:145  21868; [vos] selected: 183.134.68.100:4008
+ERROR   11:36:15:146  21868; [ch0] login strategy=2
+INFO    11:36:15:146  21868; [ds]: ver 1 ds '{"streamType":5,"clientRole":1}'
+INFO    11:36:15:146  21868; [ch0] Login VOS (proto:11, cid:2596571581, uid:297453497, ts:1571801775146, ticket size:76 ds:1 stream:+A+VH) 2: 183.134.68.100:4008
+INFO    11:36:15:153  21868; [ap/u] **responsed from 47.244.4.122:25000, STUN(2).
+INFO    11:36:15:156  21868; [ap/u] **responsed from 118.190.148.38:8000, STUN(2).
+INFO    11:36:15:167  21868; [ap/u] **responsed from 106.75.87.94:1080, STUN(2).
+INFO    11:36:15:175  21868; [vocs/u] **responsed from 54.223.118.211:25000, 3 vos, elapsed 1959, server ts 1571801775092, wan ip 183******123
+INFO    11:36:15:183  21868; [vocs/u] **responsed from 47.244.4.122:1080, 3 vos, elapsed 1967, server ts 1571801775085, wan ip 183******123
+INFO    11:36:15:200  21868; [ch0] **VOS response to login request (res 0 elapsed 1983, server ts 1571801775142, s-c:-58) from 183.134.68.100:4008, and current dest server 183.134.68.100:4008
+INFO    11:36:15:200  21868; updateActiveVosList: ["183.134.68.100:4008"]
+INFO    11:36:15:200  21868; [cm] connection state changed from 2 to 3
+INFO    11:36:15:200  21868; agora::media::VideoEngine::RequestEncodeKeyFrame
+INFO    11:36:15:201  21868; [che] start call begins
+INFO    11:36:15:201  21868; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    11:36:15:201  21868; Set Application Mode in RTC Engine to No. 4
+INFO    11:36:15:201  21868; SetCodec by type : No. 77
+INFO    11:36:15:208  21868; setLoopbackRecording, enabled: false, delay 0, aec 1 
+INFO    11:36:15:208  21868; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+INFO    11:36:15:208  21868; MID = 0, Routing = 0
+INFO    11:36:15:226  21868; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    11:36:15:226  21868; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    11:36:15:226  21868; [WIN_CORE] nChannels      : 2
+INFO    11:36:15:226  21868; [WIN_CORE] nSamplesPerSec : 48000
+INFO    11:36:15:226  21868; [WIN_CORE] wBitsPerSample : 32
+INFO    11:36:15:236  21868; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    11:36:15:236  21868; [WIN_CORE] VoE selected this rendering format:
+INFO    11:36:15:236  21868; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    11:36:15:236  21868; [WIN_CORE] nChannels          : 2
+INFO    11:36:15:236  21868; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    11:36:15:236  21868; [WIN_CORE] wBitsPerSample     : 16
+INFO    11:36:15:322  21868; [WIN_CORE] render Initialize time 0  hr 0
+INFO    11:36:15:322  21868; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    11:36:15:322  21868; [WIN_CORE] render side is now initialized
+INFO    11:36:15:328  22868; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=6290)
+INFO    11:36:15:328  22868; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    11:36:15:328  22868; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    11:36:15:329  22868; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    11:36:15:329  22868; [WIN_CORE] [REND] initial delay        : 30
+INFO    11:36:15:329  22868; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    11:36:15:330  21868; [WIN_CORE] rendering audio stream has now started...
+INFO    11:36:15:331  21868; output: enabled=0
+INFO    11:36:15:331  21868; output: volume=5
+INFO    11:36:15:331  21868; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    11:36:15:331  21868; StartPlayout complete
+INFO    11:36:15:331  21868; StartSend
+INFO    11:36:15:340  21868; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    11:36:15:340  21868; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    11:36:15:340  21868; [WIN_CORE] nChannels      : 2
+INFO    11:36:15:340  21868; [WIN_CORE] nSamplesPerSec : 48000
+INFO    11:36:15:340  21868; [WIN_CORE] wBitsPerSample : 32
+INFO    11:36:15:341  21868; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    11:36:15:341  21868; [WIN_CORE] VoE selected this capturing format:
+INFO    11:36:15:341  21868; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    11:36:15:341  21868; [WIN_CORE] nChannels         : 2
+INFO    11:36:15:341  21868; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    11:36:15:341  21868; [WIN_CORE] wBitsPerSample    : 16
+INFO    11:36:15:361  21868; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    11:36:15:361  21868; [WIN_CORE] IAudioClient::GetBufferSize() => 1440 (<=> 5760 bytes)
+INFO    11:36:15:361  21868; [WIN_CORE] capture side is now initialized
+INFO    11:36:15:371   9128; [WIN_CORE] [CAPT] size of buffer       : 1440
+INFO    11:36:15:371   9128; [WIN_CORE] [CAPT] size of sync buffer  : 11520 [bytes]
+INFO    11:36:15:371   9128; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    11:36:15:373   9128; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    11:36:15:373   9128; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    11:36:15:373   9128; [WIN_CORE] [CAPT] endpointBufferSizeMS : 30.00
+INFO    11:36:15:377  21868; [WIN_CORE] capture audio stream has now started...
+INFO    11:36:15:378  21868; output: enabled=0
+INFO    11:36:15:379  21868; => OnWindowsCurrentDeviceChange() : kRecordingDevice micBoost 503319060 max: 30.0 min:  0.0 step: 10.0 level: 20.0 volume:255
+INFO    11:36:15:379  21868; StartRecording complete
+INFO    11:36:15:379  21868; output: kWindowsCoreAudio
+INFO    11:36:15:379  21868;   Output: audioLayer=2
+INFO    11:36:15:379  21868; [che] applyVideoProfile: 1280x720 30 fps 1714 kbps, min 1 kbps orientationMode 440217392
+INFO    11:36:15:379  21868; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 1280x720, fps 30, rate 1714000
+WARN    11:36:15:379  21868; agora::media::VideoEngine::validateVideoParameters: rate 1714000 too small, clip to a larger value.
+INFO    11:36:15:411  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:411  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:411  21868; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=1714836
+INFO    11:36:15:411  21868; agora::media::VideoEngine::setCodecRates: set frame rate to 30
+INFO    11:36:15:411  21868; agora::media::VideoEngine::setCodec: index=1 width=1280 height=720 framerate=30
+INFO    11:36:15:411  21868; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:36:15:411  21868; agora::media::VideoEngine::setCodecResolution: set to 1280 x 720
+INFO    11:36:15:411  21868; Set broadcast min br to -1.
+INFO    11:36:15:444  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:444  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:444  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=1FC94FC0
+WARN    11:36:15:444  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    11:36:15:477  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:477  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:477  21868; agora::media::VideoEngine::startCapture: device? 0 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    11:36:15:511  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:511  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:528  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:528  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:528  21868; [rtpSender] set paced sender status 0.
+
+INFO    11:36:15:578  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:578  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:595  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:595  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:629  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:629  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:629  21868; AgoraVideoInput::agora::AgoraVideoInput::Init thread=0, type=100, device=\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:629  21868; AgoraCameraCapture::agora::AgoraCameraCapture::Initialize, device=\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:664  21868; Camera Name:Integrated Webcam
+INFO    11:36:15:664  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:15:729  21868; Camera capability, width:1280 height:720 type:10 fps:30
+INFO    11:36:15:729  21868; Camera capability, width:960 height:540 type:10 fps:30
+INFO    11:36:15:730  21868; Camera capability, width:848 height:480 type:10 fps:30
+INFO    11:36:15:730  21868; Camera capability, width:1280 height:720 type:10 fps:30
+INFO    11:36:15:730  21868; Camera capability, width:640 height:480 type:2 fps:30
+INFO    11:36:15:731  21868; Camera capability, width:160 height:120 type:2 fps:30
+INFO    11:36:15:731  21868; Camera capability, width:320 height:180 type:2 fps:30
+INFO    11:36:15:731  21868; Camera capability, width:320 height:240 type:2 fps:30
+INFO    11:36:15:731  21868; Camera capability, width:424 height:240 type:2 fps:30
+INFO    11:36:15:732  21868; Camera capability, width:640 height:360 type:2 fps:30
+INFO    11:36:15:732  21868; Camera capability, width:1280 height:720 type:2 fps:10
+INFO    11:36:15:732  21868; CreateCapabilityMap 11
+INFO    11:36:15:805  21868; capture type:ds capture nRet =1,dscaptrue=0
+ERROR   11:36:15:805  21868; AgoraVideoInput::agora::AgoraVideoInput::Init unable to initialize capturer
+ERROR   11:36:15:805  21868; agora::media::VideoEngine::startCapture: failed to initialize camera, camIndex = 0
+ERROR   11:36:15:805  21868; [che] Unable to start capture video, res=-1
+INFO    11:36:15:806  21868; [che] start call returns -1, elapsed 605
+ERROR   11:36:15:806  21868; [che] error calling startCall()
+INFO    11:36:15:811  21868; join channel success: cname 'ttt' uid 297453497 elapsed 2594
+INFO    11:36:15:811  21868; CacheManager: save cache to storage elapsed 0
+INFO    11:36:15:812  21868; onFirstLocalAudioFrame codec 77 elapsed 2596
+INFO    11:36:15:812  21868; TRACER: onFirstLocalAudioFrame codec 77 elapsed 2596
+INFO    11:36:15:819  21868; [ch0] rtt: 8
+INFO    11:36:17:199  21868; agora::media::VideoEngine::notifyPeerCount: cnt 0
+INFO    11:36:18:209  21868; [rs] **report stats: seq: 42, report list size 0, tx/rx: 7477/2016, cache size: 0
+INFO    11:36:21:339  22868; Audio statistics - play count: playout count = 200  signal level: far_in = 0
+INFO    11:36:21:394   9128; Audio statistics - rec count: record count = 201 signal level: near_in = 88, near_out = 84 encode_in = 88
+INFO    11:36:22:920  21868; [tactics] Bwe speaker audio lost(400/800/5000):0/0/0 rtt:4
+INFO    11:36:27:918  21868; [tactics] Bwe speaker audio lost(400/800/5000):0/0/0 rtt:4
+INFO    11:36:32:123  21868; [rp] {"che.video.local.render":false}
+INFO    11:36:32:123  21868; agora::media::VideoEngine::enableLocalVideoRender: enable=0
+INFO    11:36:32:811  21868; [rp] {"che.video.local.render":true}
+INFO    11:36:32:811  21868; agora::media::VideoEngine::enableLocalVideoRender: enable=1
+INFO    11:36:32:845  21868; Camera Name:Integrated Webcam
+INFO    11:36:32:845  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:32:845  21868; agora::media::VideoEngine::doStartLocalRender: init? 1 capture id -1 device 0 capturing? 0 rendering? 0
+INFO    11:36:32:845  21868; agora::media::VideoEngine::doStartLocalRender: local render windows 0001170A
+INFO    11:36:32:845  21868; AgoraVideoOutput::agora::AgoraVideoOutput::Init thread=0, type=100, view=0001170A
+INFO    11:36:32:850  21868; AgoraRTC::ModuleVideoRenderImpl::ModuleVideoRenderImpl: prefer renderer 1(flags: 0x00000000)
+INFO    11:36:32:902  21868; Direct3d Device: NVIDIA GeForce GTX 1060 with Max-Q Design 4318 7200 161
+ERROR   11:36:33:140  21868; Using D3DTEXF_LINEAR for minification
+ERROR   11:36:33:140  21868; Using D3DTEXF_LINEAR for magnification
+INFO    11:36:33:141  11108; Thread with name:D3D Render started 
+INFO    11:36:33:141  21868; AgoraRTC::VideoRenderWindowsImpl::Init,Render Type:D3D Render,iRet:0
+INFO    11:36:33:141  21868; AgoraVideoOutput::agora::AgoraVideoOutput::Start uid=0, stream_id=0, render_mode=2
+INFO    11:36:33:141  21868; AgoraRTC::IncomingVideoStream::SetStreamListener running for stream 0
+INFO    11:36:33:141  21868; [che] onVideoFrameFrozen: uid 0, frozen false
+INFO    11:36:33:142  19316; Thread with name:IncomingVideoStreamThread started 
+ERROR   11:36:33:142  21868; Not supported.
+INFO    11:36:33:176  21868; Camera Name:Integrated Webcam
+INFO    11:36:33:176  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:33:176  21868; agora::media::VideoEngine::doStartLocalRender success
+INFO    11:36:33:177  21868; [tactics] Bwe speaker audio lost(400/800/5000):0/0/0 rtt:4
+INFO    11:36:35:200  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 5
+INFO    11:36:35:200  21868; [tactics] handle videobwe:0 fps:5 now:55440003 55445003
+INFO    11:36:35:338  22868; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    11:36:35:414   9128; Audio statistics - rec count: record count = 600 signal level: near_in = 92, near_out = 87 encode_in = 92
+INFO    11:36:37:919  21868; [tactics] Bwe speaker audio lost(400/800/5000):0/0/0 rtt:4
+INFO    11:36:42:098  20596; API call to stop preview
+INFO    11:36:42:099  20596; API call to leave channel
+INFO    11:36:42:099  21868; [rp] {"rtc.video.preview":false}
+ERROR   11:36:42:099  21868; API call failed to stop video preview due to not in idle mode
+INFO    11:36:42:099  21868; [cm] emit leave channel signal
+INFO    11:36:42:421  21868; agora::media::VideoEngine::stopLocalRender
+INFO    11:36:42:421  21868; AgoraVideoOutput::agora::AgoraVideoOutput::Stop
+INFO    11:36:42:423  19316; Thread with name:IncomingVideoStreamThread stopped
+WARN    11:36:42:423  21868; AgoraRTC::IncomingVideoStream::Stop: Not running
+INFO    11:36:42:423  21868; AgoraVideoOutput::agora::AgoraVideoOutput::Destroy
+INFO    11:36:42:423  11108; Thread with name:D3D Render stopped
+INFO    11:36:42:433  21868; agora::media::VideoEngine::stopLocalRender success
+WARN    11:36:42:433  21868; agora::media::VideoEngine::stopCapture: VideoEngine haven't startCapture
+INFO    11:36:42:433  21868; agora::media::VideoEngine::stopRemoteRender
+INFO    11:36:42:433  21868; [che] stopCall begins
+INFO    11:36:42:433  21868; [WIN_CORE] closing down the agora_core_audio_capture_thread...
+INFO    11:36:42:435   9128; [WIN_CORE] _Capturing thread is now terminated properly
+INFO    11:36:42:443  21868; [WIN_CORE] agora_core_audio_capture_thread is now closed
+INFO    11:36:42:443  21868; StopRecording complete
+INFO    11:36:42:443  21868; [WIN_CORE] closing down the agora_core_audio_render_thread...
+INFO    11:36:42:466  22868; [WIN_CORE] _Rendering thread is now terminated properly
+INFO    11:36:42:467  21868; [WIN_CORE] agora_core_audio_render_thread is now closed
+INFO    11:36:42:470  21868; StopPlayout complete
+INFO    11:36:42:476  21868; [che] stop call returns 0, elapsed 43
+INFO    11:36:42:477  21868; [rs] **report stats: seq: 61, report list size 4, tx/rx: 10313/2736, cache size: 0
+INFO    11:36:42:477  21868; [cm] connection state changed from 3 to 1
+INFO    11:36:42:477  21868; **CALL STATS: duration 27s, tx 270.556K bytes, rx 8.572K bytes, total 279.104K bytes
+INFO    11:36:42:478  21868; CacheManager: save cache to storage elapsed 1
+INFO    11:36:42:483  21868; [ch0] vos destroyed
+INFO    11:36:42:485  21868; delRef of media engine, ref=1
+INFO    11:36:42:485  21868; ***CALL END
+INFO    11:36:42:485  21868; [cc] setLocalMuteAudioState: false, priority: 4
+INFO    11:36:42:485  21868; setMuteStatus, muted: Off
+INFO    11:36:42:485  21868; [cc] setLocalMuteVideoState: false, priority: 4
+INFO    11:36:42:485  21868; SetAudioFallback 0
+INFO    11:36:42:485  21868; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    11:36:42:485  21868; onAudioStatusChanged enable audio
+INFO    11:36:42:486  21868; [rp] {"rtc.video.mute_me":false,"che.video.local.send":true}
+INFO    11:36:42:486  21868; [cc] setLocalMuteVideoState: false, priority: 4
+INFO    11:36:42:486  21868; SetAudioFallback 0
+INFO    11:36:42:486  21868; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    11:36:42:486  21868; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    11:36:42:486  21868; [cc] setLocalMuteAudioState: false, priority: 4
+INFO    11:36:42:486  21868; setMuteStatus, muted: Off
+INFO    11:36:42:486  21868; [rp] {"che.video.stop_screen_capture":true}
+INFO    11:36:42:487  21868; [MIO] updateCapturer: (00000000), type:(1)
+INFO    11:36:42:487  21868; agora::media::VideoEngine::setCaptureDeviceWithNoOption: index=0
+INFO    11:36:42:520  21868; Camera Name:Integrated Webcam
+INFO    11:36:42:520  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:42:520  21868; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    11:36:42:520  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=1FC94FC0
+WARN    11:36:42:520  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    11:36:43:166  20596; API call to setVideoProfileEx 1280x720 30 fps 1000 kbps
+INFO    11:36:43:167  20596; API call to setupLocalVideo 0001170A
+INFO    11:36:43:167  20596; [API] userManagerPendingView: user 0 window 71434
+INFO    11:36:43:167  20596; API call to start preview
+INFO    11:36:43:167  21868; [che] applyVideoProfile: 1280x720 30 fps 1714 kbps, min 1 kbps orientationMode 207310820
+INFO    11:36:43:167  21868; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 1280x720, fps 30, rate 1714000
+WARN    11:36:43:167  21868; agora::media::VideoEngine::validateVideoParameters: rate 1714000 too small, clip to a larger value.
+INFO    11:36:43:167  20596; API call to join channel 'ttt' uid 0, SDK ver 2.3.2.101 build 2264, device info 'Dell Inc./G3 3579/x64-based PC/Windows 6.2.9200'
+INFO    11:36:43:202  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:202  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:202  21868; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=1714836
+INFO    11:36:43:202  21868; agora::media::VideoEngine::setCodecRates: set frame rate to 30
+INFO    11:36:43:202  21868; agora::media::VideoEngine::setCodec: index=1 width=1280 height=720 framerate=30
+INFO    11:36:43:202  21868; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:36:43:202  21868; agora::media::VideoEngine::setCodecResolution: set to 1280 x 720
+INFO    11:36:43:202  21868; Set broadcast min br to -1.
+INFO    11:36:43:202  21868; [rp] {"che.video.localViewMirrorSetting":"disableMirror"}
+INFO    11:36:43:203  21868; [rp] {"che.hardware_encoding":1}
+INFO    11:36:43:203  21868; [rp] {"che.video.has_intra_request":false}
+INFO    11:36:43:203  21868; [API] userManagerBindUserView: user 0 mode 2 window 71434
+INFO    11:36:43:236  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:236  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:236  21868; agora::media::VideoEngine::doStartLocalRender: init? 1 capture id -1 device 0 capturing? 0 rendering? 0
+INFO    11:36:43:236  21868; agora::media::VideoEngine::doStartLocalRender: local render windows 0001170A
+INFO    11:36:43:236  21868; AgoraVideoOutput::agora::AgoraVideoOutput::Init thread=0, type=100, view=0001170A
+INFO    11:36:43:236  21868; AgoraRTC::ModuleVideoRenderImpl::ModuleVideoRenderImpl: prefer renderer 1(flags: 0x00000000)
+INFO    11:36:43:247  21868; Direct3d Device: NVIDIA GeForce GTX 1060 with Max-Q Design 4318 7200 161
+ERROR   11:36:43:323  21868; Using D3DTEXF_LINEAR for minification
+ERROR   11:36:43:323  21868; Using D3DTEXF_LINEAR for magnification
+INFO    11:36:43:324  14900; Thread with name:D3D Render started 
+INFO    11:36:43:324  21868; AgoraRTC::VideoRenderWindowsImpl::Init,Render Type:D3D Render,iRet:0
+INFO    11:36:43:324  21868; AgoraVideoOutput::agora::AgoraVideoOutput::Start uid=0, stream_id=0, render_mode=2
+INFO    11:36:43:324  21868; AgoraRTC::IncomingVideoStream::SetStreamListener running for stream 0
+INFO    11:36:43:324  21868; [che] onVideoFrameFrozen: uid 0, frozen false
+INFO    11:36:43:324  19892; Thread with name:IncomingVideoStreamThread started 
+ERROR   11:36:43:324  21868; Not supported.
+INFO    11:36:43:357  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:357  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:357  21868; agora::media::VideoEngine::doStartLocalRender success
+INFO    11:36:43:358  21868; [rp] {"rtc.video.preview":true}
+INFO    11:36:43:358  21868; API call to start video preview
+INFO    11:36:43:358  21868; addRef of media engine, ref=2
+INFO    11:36:43:358  21868; [che] applyVideoProfile: 1280x720 30 fps 1714 kbps, min 1 kbps orientationMode 440217392
+INFO    11:36:43:358  21868; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 1280x720, fps 30, rate 1714000
+WARN    11:36:43:358  21868; agora::media::VideoEngine::validateVideoParameters: rate 1714000 too small, clip to a larger value.
+INFO    11:36:43:391  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:391  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:391  21868; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=1714836
+INFO    11:36:43:391  21868; agora::media::VideoEngine::setCodecRates: set frame rate to 30
+INFO    11:36:43:391  21868; agora::media::VideoEngine::setCodec: index=1 width=1280 height=720 framerate=30
+INFO    11:36:43:391  21868; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:36:43:391  21868; agora::media::VideoEngine::setCodecResolution: set to 1280 x 720
+INFO    11:36:43:391  21868; Set broadcast min br to -1.
+INFO    11:36:43:425  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:425  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:425  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=1FC94FC0
+WARN    11:36:43:425  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    11:36:43:459  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:459  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:459  21868; agora::media::VideoEngine::startCapture: device? 0 init? 1 local enabled? 1 capturing? 0 rendering? 1
+INFO    11:36:43:492  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:492  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:509  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:509  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:509  21868; [rtpSender] set paced sender status 0.
+
+INFO    11:36:43:559  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:559  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:577  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:577  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:611  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:611  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:611  21868; AgoraVideoInput::agora::AgoraVideoInput::Init thread=0, type=100, device=\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:611  21868; AgoraCameraCapture::agora::AgoraCameraCapture::Initialize, device=\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:644  21868; Camera Name:Integrated Webcam
+INFO    11:36:43:644  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:36:43:763  21868; Camera capability, width:1280 height:720 type:10 fps:30
+INFO    11:36:43:763  21868; Camera capability, width:960 height:540 type:10 fps:30
+INFO    11:36:43:764  21868; Camera capability, width:848 height:480 type:10 fps:30
+INFO    11:36:43:764  21868; Camera capability, width:1280 height:720 type:10 fps:30
+INFO    11:36:43:764  21868; Camera capability, width:640 height:480 type:2 fps:30
+INFO    11:36:43:764  21868; Camera capability, width:160 height:120 type:2 fps:30
+INFO    11:36:43:765  21868; Camera capability, width:320 height:180 type:2 fps:30
+INFO    11:36:43:765  21868; Camera capability, width:320 height:240 type:2 fps:30
+INFO    11:36:43:765  21868; Camera capability, width:424 height:240 type:2 fps:30
+INFO    11:36:43:765  21868; Camera capability, width:640 height:360 type:2 fps:30
+INFO    11:36:43:766  21868; Camera capability, width:1280 height:720 type:2 fps:10
+INFO    11:36:43:766  21868; CreateCapabilityMap 11
+INFO    11:36:44:275  21868; Capture device '\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global,fps:30' initialized.
+INFO    11:36:44:275  21868; capture type:ds capture nRet =0,dscaptrue=656894760
+INFO    11:36:44:276  21868; RegisterCameraCallback called -558383354686567324
+INFO    11:36:44:276  21868; agora::media::VideoEngine::h264WebInteropEnable: enable 0
+INFO    11:36:44:276  21868; agora::media::VideoEngine::setCodec: index=1 width=1280 height=720 framerate=30
+INFO    11:36:44:276  21868; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:36:44:276  21868; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=1714836
+INFO    11:36:44:276  21868; SetTargetWidthHeight width:1280, height:720
+INFO    11:36:44:276  21868; AgoraVideoInput::agora::AgoraVideoInput::Start width=1280, height=720, fps=30
+INFO    11:36:44:276  21868; AgoraCameraCapture::agora::AgoraCameraCapture::Start width=1280, height=720, fps=30, rotation=0
+INFO    11:36:44:345  21868; AgoraRTC::videocapturemodule::VideoCaptureDS::StartCapture,DisconnectGraph
+INFO    11:36:44:515  21868; agora::media::VideoEngine::startCapture: startCapture success
+INFO    11:36:44:515  21868; agora::media::VideoEngine::RequestEncodeKeyFrame
+WARN    11:36:44:515  21868; agora::media::VideoEngine::doStartLocalRender: Local renderer is rendering
+WARN    11:36:44:515  21868; agora::media::VideoEngine::doStartLocalRender: Local renderer is rendering
+INFO    11:36:44:515  21868; video agora::media::VideoEngine::setPeerVideoMuteStatus: uid 0 muted 0
+INFO    11:36:44:516  21868; [rs] All - total: 50/54, valid: 50/54
+INFO    11:36:44:516  21868; [rs] Counter - total: 14/14, valid: 14/14
+INFO    11:36:44:516  21868; [rs] Event - total: 36/40, valid: 36/40
+INFO    11:36:44:518  21868; ***CALL BEGIN: appid:'96****************************e8' cname:'ttt' info:'{"owner":true,"width":640,"height":480,"bitrate":500}' sid:'1D9C4F8C20294D438873C8B88A0A7966'
+INFO    11:36:44:518  21868; addRef of media engine, ref=3
+INFO    11:36:44:521  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 10
+INFO    11:36:44:521  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 7
+INFO    11:36:44:521  21868; [tactics] version:2.3.2.101 maxBitrate:1714 1280X720 30 fps needHandle:1
+INFO    11:36:44:522  21868; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    11:36:44:522  21868; [tactics] parse config for beckon error for tactics size:15
+INFO    11:36:44:527  21868; [vocs] vocs initialized
+INFO    11:36:44:529  21868; CacheManager: save cache to storage elapsed 0
+INFO    11:36:44:529  21868; [cm] emit join channel signal, size=3
+INFO    11:36:44:529  21868; [cm] connection state changed from 1 to 2
+INFO    11:36:44:530  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 10
+INFO    11:36:44:530  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 7
+INFO    11:36:44:530  21868; [tactics] version:2.3.2.101 maxBitrate:1714 1280X720 30 fps needHandle:1
+INFO    11:36:44:530  21868; [vocs] lookup channel...
+INFO    11:36:44:530  21868; [vocs] selected: 106.75.133.43:8000
+INFO    11:36:44:530  21868; connecting to 106.75.133.43:8000 handle 26ff2ef0, 3672
+INFO    11:36:44:530  21868; [vocs] report bitrate: a/v/t: 50/1714/1764
+INFO    11:36:44:530  21868; [vocs] creating channel with 106.75.133.43:8000, ts 1571801804530.......
+INFO    11:36:44:530  21868; [vocs] selected: 101.201.199.195:1080
+INFO    11:36:44:530  21868; [vocs] report bitrate: a/v/t: 50/1714/1764
+INFO    11:36:44:530  21868; [vocs] creating channel with 101.201.199.195:1080, ts 1571801804530.......
+INFO    11:36:44:530  21868; [vocs] selected: 47.107.39.93:25000
+INFO    11:36:44:531  21868; [vocs] report bitrate: a/v/t: 50/1714/1764
+INFO    11:36:44:531  21868; [vocs] creating channel with 47.107.39.93:25000, ts 1571801804531.......
+INFO    11:36:44:531  21868; [ap] selected: 118.190.148.38:8000
+INFO    11:36:44:531  21868; connecting to 118.190.148.38:8000 handle 2719def0, 3676
+INFO    11:36:44:531  21868; [ap] creating channel with 118.190.148.38:8000, ts 55449333, flag: 2
+INFO    11:36:44:531  21868; [ap] selected: 106.75.87.94:1080
+INFO    11:36:44:531  21868; [ap] creating channel with 106.75.87.94:1080, ts 55449333, flag: 2
+INFO    11:36:44:531  21868; [ap] selected: 47.244.4.122:25000
+INFO    11:36:44:531  21868; [ap] creating channel with 47.244.4.122:25000, ts 55449333, flag: 2
+INFO    11:36:44:572  21868; [vocs/t] tcp create channel connected with 1ED46F50
+INFO    11:36:44:572  21868; [vocs] report bitrate: a/v/t: 50/1714/1764
+INFO    11:36:44:572  21868; [vocs] tcp - creating channel with 106.75.133.43:8000, ts 1571801804572.......
+INFO    11:36:44:574  21868; [ap/u] **responsed from 118.190.148.38:8000, STUN(2).
+INFO    11:36:44:589  21868; [ap/u] **responsed from 47.244.4.122:25000, STUN(2).
+INFO    11:36:44:596  15344; [che] onVideoSizeChanged: uid 0 1280x720 rotate 0
+INFO    11:36:44:596  13824; Quick Intra Request Received and to Enc Intra now
+
+INFO    11:36:44:596  13824; VQC module init done. stream no 0, mode 1, structure 257, scenario 512, preference 0, preferEnableVQC 1.
+INFO    11:36:44:596  13824; Encoder rc method 3
+INFO    11:36:44:599  19892; Local stream (0) first rendered with resolution 1280 * 720
+INFO    11:36:44:600  14900; AgoraRTC::VideoRenderDirect3D9::UpdateRenderSurface,CreateOffscreenPlainSurface reset call
+INFO    11:36:44:600  21868; [vocs/u] **responsed from 106.75.133.43:8000, 3 vos, elapsed 1433, server ts 1571801804518, wan ip 183******123
+INFO    11:36:44:601  21868; [vos] added server: 115.231.27.102:4007
+INFO    11:36:44:601  21868; [vos] added server: 115.236.96.5:4008
+INFO    11:36:44:601  21868; [vos] added server: 183.134.68.99:4010
+INFO    11:36:44:603  21868; [ch0] vos initialized
+INFO    11:36:44:603  21868; [vos] selected: 183.134.68.99:4010
+ERROR   11:36:44:603  21868; [ch0] login strategy=2
+INFO    11:36:44:604  21868; [ds]: ver 1 ds '{"streamType":5,"clientRole":1}'
+INFO    11:36:44:604  21868; [ch0] Login VOS (proto:11, cid:2596571581, uid:1987725827, ts:1571801804603, ticket size:76 ds:1 stream:+A+VH) 2: 183.134.68.99:4010
+INFO    11:36:44:604  21868; onFirstVideoFrame local 1987725827 resolution 1280 * 720, elapsed 1247
+INFO    11:36:44:605  21868; [ap/u] **responsed from 106.75.87.94:1080, STUN(2).
+INFO    11:36:44:606  21868; [vocs/u] **responsed from 101.201.199.195:1080, 3 vos, elapsed 1439, server ts 1571801804518, wan ip 183******123
+INFO    11:36:44:616  21868; [vocs/u] **responsed from 47.107.39.93:25000, 3 vos, elapsed 1449, server ts 1571801804518, wan ip 183******123
+INFO    11:36:44:652  21868; [ch0] **VOS response to login request (res 0 elapsed 1484, server ts 1571801804594, s-c:-58) from 183.134.68.99:4010, and current dest server 183.134.68.99:4010
+INFO    11:36:44:652  21868; updateActiveVosList: ["183.134.68.99:4010"]
+INFO    11:36:44:652  21868; [cm] connection state changed from 2 to 3
+INFO    11:36:44:652  21868; agora::media::VideoEngine::RequestEncodeKeyFrame
+INFO    11:36:44:653  21868; [che] start call begins
+INFO    11:36:44:653  21868; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    11:36:44:653  21868; Set Application Mode in RTC Engine to No. 4
+INFO    11:36:44:653  21868; SetCodec by type : No. 77
+INFO    11:36:44:653  21868; setLoopbackRecording, enabled: false, delay 0, aec 1 
+INFO    11:36:44:653  21868; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+INFO    11:36:44:653  21868; MID = 0, Routing = 0
+INFO    11:36:44:664  21868; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    11:36:44:664  21868; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    11:36:44:664  21868; [WIN_CORE] nChannels      : 2
+INFO    11:36:44:664  21868; [WIN_CORE] nSamplesPerSec : 48000
+INFO    11:36:44:664  21868; [WIN_CORE] wBitsPerSample : 32
+INFO    11:36:44:674  21868; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    11:36:44:674  21868; [WIN_CORE] VoE selected this rendering format:
+INFO    11:36:44:674  21868; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    11:36:44:674  21868; [WIN_CORE] nChannels          : 2
+INFO    11:36:44:674  21868; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    11:36:44:674  21868; [WIN_CORE] wBitsPerSample     : 16
+INFO    11:36:44:716  13824; Quick Intra Request Received and to Enc Intra now
+
+INFO    11:36:44:760  21868; [WIN_CORE] render Initialize time 0  hr 0
+INFO    11:36:44:760  21868; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    11:36:44:760  21868; [WIN_CORE] render side is now initialized
+INFO    11:36:44:761   2900; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=6296)
+INFO    11:36:44:761   2900; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    11:36:44:761   2900; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    11:36:44:762   2900; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    11:36:44:762   2900; [WIN_CORE] [REND] initial delay        : 30
+INFO    11:36:44:762   2900; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    11:36:44:762  21868; [WIN_CORE] rendering audio stream has now started...
+INFO    11:36:44:764  21868; output: enabled=0
+INFO    11:36:44:764  21868; output: volume=5
+INFO    11:36:44:764  21868; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    11:36:44:764  21868; StartPlayout complete
+INFO    11:36:44:764  21868; StartSend
+INFO    11:36:44:773  21868; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    11:36:44:773  21868; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    11:36:44:773  21868; [WIN_CORE] nChannels      : 2
+INFO    11:36:44:773  21868; [WIN_CORE] nSamplesPerSec : 48000
+INFO    11:36:44:773  21868; [WIN_CORE] wBitsPerSample : 32
+INFO    11:36:44:774  21868; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    11:36:44:774  21868; [WIN_CORE] VoE selected this capturing format:
+INFO    11:36:44:774  21868; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    11:36:44:774  21868; [WIN_CORE] nChannels         : 2
+INFO    11:36:44:774  21868; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    11:36:44:774  21868; [WIN_CORE] wBitsPerSample    : 16
+INFO    11:36:44:865  21868; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    11:36:44:865  21868; [WIN_CORE] IAudioClient::GetBufferSize() => 1440 (<=> 5760 bytes)
+INFO    11:36:44:865  21868; [WIN_CORE] capture side is now initialized
+INFO    11:36:44:875  15192; [WIN_CORE] [CAPT] size of buffer       : 1440
+INFO    11:36:44:875  15192; [WIN_CORE] [CAPT] size of sync buffer  : 11520 [bytes]
+INFO    11:36:44:875  15192; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    11:36:44:876  15192; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    11:36:44:876  15192; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    11:36:44:876  15192; [WIN_CORE] [CAPT] endpointBufferSizeMS : 30.00
+INFO    11:36:44:882  21868; [WIN_CORE] capture audio stream has now started...
+INFO    11:36:44:883  21868; output: enabled=0
+INFO    11:36:44:883  21868; => OnWindowsCurrentDeviceChange() : kRecordingDevice micBoost 503319060 max: 30.0 min:  0.0 step: 10.0 level: 20.0 volume:255
+INFO    11:36:44:883  21868; StartRecording complete
+INFO    11:36:44:883  21868; output: kWindowsCoreAudio
+INFO    11:36:44:883  21868;   Output: audioLayer=2
+INFO    11:36:44:883  21868; [che] start call returns 0, elapsed 231
+INFO    11:36:44:883  21868; setNetEQMinimumPlayoutDelay delay(0)
+INFO    11:36:44:883  21868; join channel success: cname 'ttt' uid 1987725827 elapsed 1716
+INFO    11:36:44:884  21868; CacheManager: save cache to storage elapsed 1
+INFO    11:36:44:885  21868; TRACER: onFirstLocalVideoFrame codec 2 elapsed 1717
+INFO    11:36:44:892  21868; [ch0] rtt: 7
+INFO    11:36:44:892  21868; Create participant 1987725827
+INFO    11:36:44:898  21868; onFirstLocalAudioFrame codec 77 elapsed 1731
+INFO    11:36:44:898  21868; TRACER: onFirstLocalAudioFrame codec 77 elapsed 1731
+INFO    11:36:46:652  21868; [tactics] video send param stable count: 8, freeze cnt: 0, freeze_time: 0
+INFO    11:36:47:911  15344; AgoraRTC::videocapturemodule::VideoCaptureImpl::printFrameLog :width 1280, height 720,ystride:0,frame type:10
+INFO    11:36:48:641  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:3:3:2 lost(400/800/5000):0/0/0 rtt:3 maxbw:2872
+
+INFO    11:36:48:652  21868; [tactics] video send param stable count: 3, freeze cnt: 0, freeze_time: 0
+INFO    11:36:50:141  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:4:3:3 lost(400/800/5000):0/0/0 rtt:3 maxbw:1337
+
+INFO    11:36:50:652  21868; [tactics] video send param stable count: 3, freeze cnt: 0, freeze_time: 0
+INFO    11:36:50:653  21868; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 30
+INFO    11:36:50:653  21868; [tactics] handle videobwe:1531 fps:30 now:55455455 55485455
+INFO    11:36:50:768   2900; Audio statistics - play count: playout count = 200  signal level: far_in = 0
+INFO    11:36:50:898  15192; Audio statistics - rec count: record count = 201 signal level: near_in = 92, near_out = 77 encode_in = 92
+INFO    11:36:51:271  15344; AgoraRTC::videocapturemodule::VideoCaptureImpl::printFrameLog :width 1280, height 720,ystride:0,frame type:10
+INFO    11:36:51:644  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:4:3:3 lost(400/800/5000):0/0/0 rtt:3 maxbw:1853
+
+INFO    11:36:52:142  21868; [tactics] Bwe speaker audio lost(400/800/5000):0/0/0 rtt:3
+INFO    11:36:52:200  21868; [rs] **report stats: seq: 103, report list size 0, tx/rx: 17872/4944, cache size: 0
+INFO    11:36:52:652  21868; [tactics] video send param stable count: 3, freeze cnt: 0, freeze_time: 0
+INFO    11:36:53:141  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:8:4:3 lost(400/800/5000):0/0/0 rtt:3 maxbw:1905
+
+INFO    11:36:54:631  15344; AgoraRTC::videocapturemodule::VideoCaptureImpl::printFrameLog :width 1280, height 720,ystride:0,frame type:10
+INFO    11:36:54:643  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:4:4:3 lost(400/800/5000):0/0/0 rtt:3 maxbw:1710
+
+INFO    11:36:54:653  21868; [tactics] video send param stable count: 3, freeze cnt: 0, freeze_time: 0
+INFO    11:36:56:142  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:4:4:3 lost(400/800/5000):0/0/0 rtt:3 maxbw:1875
+
+INFO    11:36:56:652  21868; [tactics] video send param stable count: 3, freeze cnt: 0, freeze_time: 0
+INFO    11:36:57:141  21868; [tactics] Bwe speaker audio lost(400/800/5000):0/0/0 rtt:3
+INFO    11:36:57:642  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:4:4:3 lost(400/800/5000):0/0/0 rtt:3 maxbw:1768
+
+INFO    11:36:57:992  15344; AgoraRTC::videocapturemodule::VideoCaptureImpl::printFrameLog :width 1280, height 720,ystride:0,frame type:10
+INFO    11:36:58:656  21868; [tactics] video send param stable count: 3, freeze cnt: 0, freeze_time: 0
+INFO    11:36:59:140  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:4:4:4 lost(400/800/5000):0/0/0 rtt:3 maxbw:1865
+
+INFO    11:37:00:657  21868; [tactics] video send param stable count: 3, freeze cnt: 0, freeze_time: 0
+INFO    11:37:01:142  21868; [tactics] onStatVideo rtt Bwe speaker video jitter:4:4:3 lost(400/800/5000):0/0/0 rtt:3 maxbw:2372
+
+INFO    11:37:01:351  15344; AgoraRTC::videocapturemodule::VideoCaptureImpl::printFrameLog :width 1280, height 720,ystride:0,frame type:10
+INFO    11:37:01:730  20596; API call to stop preview
+INFO    11:37:01:730  20596; API call to leave channel
+INFO    11:37:01:730  21868; [rp] {"rtc.video.preview":false}
+ERROR   11:37:01:730  21868; API call failed to stop video preview due to not in idle mode
+INFO    11:37:01:731  21868; [cm] emit leave channel signal
+INFO    11:37:02:052  21868; agora::media::VideoEngine::stopLocalRender
+INFO    11:37:02:052  21868; AgoraVideoOutput::agora::AgoraVideoOutput::Stop
+INFO    11:37:02:054  19892; Thread with name:IncomingVideoStreamThread stopped
+WARN    11:37:02:055  21868; AgoraRTC::IncomingVideoStream::Stop: Not running
+INFO    11:37:02:055  21868; AgoraVideoOutput::agora::AgoraVideoOutput::Destroy
+INFO    11:37:02:078  14900; Thread with name:D3D Render stopped
+INFO    11:37:02:100  21868; agora::media::VideoEngine::stopLocalRender success
+INFO    11:37:02:100  21868; AgoraVideoInput::agora::AgoraVideoInput::Stop
+INFO    11:37:02:100  21868; AgoraCameraCapture::agora::AgoraCameraCapture::Stop
+INFO    11:37:02:344  21868; AgoraVideoInput::agora::AgoraVideoInput::Destroy
+INFO    11:37:02:344  21868; AgoraCameraCapture::agora::AgoraCameraCapture::Dispose
+INFO    11:37:02:364  21868; agora::media::VideoEngine::stopCapture: stopCapture success
+INFO    11:37:02:364  21868; [rtpSender] set paced sender status 0.
+
+INFO    11:37:02:364  21868; agora::media::VideoEngine::stopRemoteRender
+INFO    11:37:02:365  21868; agora::media::VideoEngine::stopRemoteVideo: uid=1987725827
+INFO    11:37:02:366  21868; [che] stopCall begins
+INFO    11:37:02:366  21868; [WIN_CORE] closing down the agora_core_audio_capture_thread...
+INFO    11:37:02:367  15192; [WIN_CORE] _Capturing thread is now terminated properly
+INFO    11:37:02:376  21868; [WIN_CORE] agora_core_audio_capture_thread is now closed
+INFO    11:37:02:376  21868; StopRecording complete
+INFO    11:37:02:376  21868; [WIN_CORE] closing down the agora_core_audio_render_thread...
+INFO    11:37:02:399   2900; [WIN_CORE] _Rendering thread is now terminated properly
+INFO    11:37:02:400  21868; [WIN_CORE] agora_core_audio_render_thread is now closed
+INFO    11:37:02:402  21868; StopPlayout complete
+INFO    11:37:02:403  21868; [che] stop call returns 0, elapsed 36
+INFO    11:37:02:403  21868; [rs] **report stats: seq: 111, report list size 3, tx/rx: 19059/5184, cache size: 0
+INFO    11:37:02:403  21868; [cm] connection state changed from 3 to 1
+INFO    11:37:02:403  21868; **CALL STATS: duration 17s, tx 3.586M bytes, rx 29.10K bytes, total 3.615M bytes
+INFO    11:37:02:404  21868; CacheManager: save cache to storage elapsed 1
+INFO    11:37:02:413  21868; [ch0] vos destroyed
+INFO    11:37:02:415  21868; delRef of media engine, ref=2
+INFO    11:37:02:415  21868; ***CALL END
+INFO    11:37:02:415  21868; [cc] setLocalMuteAudioState: false, priority: 4
+INFO    11:37:02:415  21868; setMuteStatus, muted: Off
+INFO    11:37:02:415  21868; [cc] setLocalMuteVideoState: false, priority: 4
+INFO    11:37:02:415  21868; SetAudioFallback 0
+INFO    11:37:02:415  21868; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    11:37:02:415  21868; onAudioStatusChanged enable audio
+INFO    11:37:02:416  21868; [rp] {"rtc.video.mute_me":false,"che.video.local.send":true}
+INFO    11:37:02:416  21868; [cc] setLocalMuteVideoState: false, priority: 4
+INFO    11:37:02:416  21868; SetAudioFallback 0
+INFO    11:37:02:416  21868; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    11:37:02:416  21868; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    11:37:02:416  21868; [cc] setLocalMuteAudioState: false, priority: 4
+INFO    11:37:02:416  21868; setMuteStatus, muted: Off
+INFO    11:37:02:417  21868; [rp] {"che.video.stop_screen_capture":true}
+INFO    11:37:02:417  21868; [MIO] updateCapturer: (00000000), type:(1)
+INFO    11:37:02:417  21868; agora::media::VideoEngine::setCaptureDeviceWithNoOption: index=0
+INFO    11:37:02:450  21868; Camera Name:Integrated Webcam
+INFO    11:37:02:450  21868; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:02:450  21868; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    11:37:02:450  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=1FC94FC0
+WARN    11:37:02:450  21868; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+Local Date: 10‘¬ 23 2019 Local Time: 11:37:06
+Build info: Aug 28 2019 16:19:29 r
+
+INFO    11:37:06:204  14684; [rp] {"rtc.channel_profile":1}
+INFO    11:37:06:204  14684; [rp] {"rtc.video.enabled":true}
+INFO    11:37:06:204  14684; API call to enable video
+INFO    11:37:06:204  14684; [rp] {"rtc.client_role":1}
+INFO    11:37:06:204  14684; set client role to broadcaster
+INFO    11:37:06:205  14684; [dns] parsed ip 101.201.199.195
+INFO    11:37:06:205  14684; [dns] parsed ip 118.190.148.38
+INFO    11:37:06:235  14684; [ap/u] **responsed from 106.75.87.94:8000, TDS(64).
+INFO    11:37:06:235  14684; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    11:37:06:236  14684; [ap/u] **responsed from 106.75.133.43:1080, TDS(64).
+INFO    11:37:06:245  14684; [rlbs/u] responsed from 52.80.192.229:9700 with servers 27.148.208.8:8913
+INFO    11:37:06:245  14684; [rs] updateServers 27.148.208.8:8913, priority 3
+INFO    11:37:06:245  14684; [rs] updateServers 61.147.236.151:8913, priority 3
+INFO    11:37:06:245  14684; [rs] updateServers 117.21.184.25:8913, priority 3
+INFO    11:37:06:247  14684; [ap/u] **responsed from 47.244.4.122:25000, TDS(64).
+INFO    11:37:11:068  14684; [rs] **report stats: seq: 9, report list size 2, tx/rx: 1205/336, cache size: 0
+INFO    11:37:22:870   9452; API call to setVideoProfileEx 1920x1080 30 fps 500 kbps
+INFO    11:37:22:871   9452; API call to setupLocalVideo 000216C8
+INFO    11:37:22:871   9452; [API] userManagerPendingView: user 0 window 136904
+INFO    11:37:22:871   9452; API call to start preview
+INFO    11:37:22:871   9452; API call to join channel 'ttt' uid 0, SDK ver 2.3.2.101 build 2264, device info 'Dell Inc./G3 3579/x64-based PC/Windows 6.2.9200'
+INFO    11:37:22:872  14684; [rp] {"che.video.localViewMirrorSetting":"disableMirror"}
+INFO    11:37:22:872  14684; [rp] {"che.hardware_encoding":1}
+INFO    11:37:22:872  14684; [rp] {"che.video.has_intra_request":false}
+INFO    11:37:22:872  14684; [API] userManagerBindUserView: user 0 mode 2 window 136904
+INFO    11:37:22:872  14684; Create participant 0
+INFO    11:37:22:873  14684; [rp] {"rtc.video.preview":true}
+INFO    11:37:22:873  14684; API call to start video preview
+INFO    11:37:22:873  14684; addRef of media engine, ref=1
+INFO    11:37:22:873  14684; [che] create chat engine, ctx:00000000
+INFO    11:37:22:874  14684; [MYDEBUG] large group call false
+INFO    11:37:22:874  14684; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    11:37:22:874  14684; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    11:37:22:874  14684; engine git commit version:8efca278c and branch:(HEAD
+INFO    11:37:22:880  14684; output: kPlatformDefaultAudio
+INFO    11:37:22:880  14684; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    11:37:22:885  14684; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    11:37:22:895  14684; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    11:37:22:895  14684; [WIN_CORE] #rendering endpoint devices (counting all): 2
+INFO    11:37:22:895  14684; [WIN_CORE] ++Endpoint  0:
+INFO    11:37:22:895  14684; [WIN_CORE] ID string    : {0.0.0.00000000}.{7663e019-46ed-44bb-9de8-52500cde6b12}
+INFO    11:37:22:896  14684; [WIN_CORE] friendly name: "C27F390 (NVIDIA High Definition Audio)"
+INFO    11:37:22:896  14684; [WIN_CORE] state (0x2)  : DISABLED
+INFO    11:37:22:896  14684; [WIN_CORE] ++Endpoint  1:
+INFO    11:37:22:896  14684; [WIN_CORE] ID string    : {0.0.0.00000000}.{d8c6aafc-db99-4ac4-8b29-d1535345252f}
+INFO    11:37:22:896  14684; [WIN_CORE] friendly name: "Speakers/Headphones (Realtek(R) Audio)"
+INFO    11:37:22:896  14684; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    11:37:22:896  14684; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    11:37:22:899  14684; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    11:37:22:899  14684; [WIN_CORE] #capturing endpoint devices (counting all): 2
+INFO    11:37:22:899  14684; [WIN_CORE] ++Endpoint  0:
+INFO    11:37:22:899  14684; [WIN_CORE] ID string    : {0.0.1.00000000}.{a3daa5f0-ea51-4a9b-80e2-1c325e5cca26}
+INFO    11:37:22:900  14684; [WIN_CORE] friendly name: "È∫¶ÂÖãÈ£é (Realtek(R) Audio)"
+INFO    11:37:22:900  14684; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    11:37:22:900  14684; [WIN_CORE] ++Endpoint  1:
+INFO    11:37:22:900  14684; [WIN_CORE] ID string    : {0.0.1.00000000}.{be827221-a2b0-41c4-827c-58af0c3bc894}
+INFO    11:37:22:900  14684; [WIN_CORE] friendly name: "Á´ã‰ΩìÂ£∞Ê∑∑Èü≥ (Realtek(R) Audio)"
+INFO    11:37:22:900  14684; [WIN_CORE] state (0x2)  : DISABLED
+INFO    11:37:22:900  14684; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    11:37:22:908  14684; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    11:37:22:908  14684; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    11:37:22:908  14684; audio jitterbuffer new smooth
+INFO    11:37:22:910  14684;   OS info: Microsoft  (build 9200), 64-bit
+INFO    11:37:22:917  14684; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "Speakers/Headphones (Realtek(R) Audio)"
+INFO    11:37:22:938  14684; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "È∫¶ÂÖãÈ£é (Realtek(R) Audio)"
+INFO    11:37:22:947  14684; StereoPlayoutIsAvailable(), output: available=1
+INFO    11:37:22:947  14684; StereoRecordingIsAvailable(), output: available=1
+INFO    11:37:22:948  12664; Thread with name:EngineMonitorThread started 
+INFO    11:37:22:948  14684; RegisterVolumeNotify
+INFO    11:37:22:949  14684; setMuteStatus, muted: Off
+INFO    11:37:22:949  14684; setMuteOutput, muted: false
+INFO    11:37:22:949  14684; Audio Engine Init success
+INFO    11:37:22:949  14684; Available number of cores:12
+INFO    11:37:22:952  14684; PipelineManager::SetDest  engine = 1FF07BA8
+INFO    11:37:22:952  14684; agora::media::VideoEngine::CreateVideoSendTrack
+INFO    11:37:22:952  14684; agora::media::VideoEngine::init: feature prerotation enabled
+INFO    11:37:22:976  14684; Camera Name:Integrated Webcam
+INFO    11:37:22:976  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:22:976  14684; Agora Engine video codec set to standard mode role mode 2
+INFO    11:37:22:976  14684; Agora Engine video codec index 1
+INFO    11:37:22:976  14684; Agora Engine video stream type = 0
+INFO    11:37:22:977  13800; Thread with name:VideoEncodeThread started 
+INFO    11:37:22:977  14684; Device type: 0
+INFO    11:37:22:977  14684; start check hardware ability
+INFO    11:37:23:233  14684; checker hardware sucess. current encoder:1
+INFO    11:37:23:233  14684; H264 Hardware Encode
+INFO    11:37:23:233  14684; last unique frame idx: -1 - -1
+INFO    11:37:23:233  14684; Device type: 0
+INFO    11:37:23:233  14684; start check hardware ability
+INFO    11:37:23:451  14684; checker hardware sucess. current encoder:1
+INFO    11:37:23:451  14684; EncoderWrapper::Create hardware_ = 1, hardware_low_ = 0
+INFO    11:37:23:451  14684; low bit rate limit 3758096384
+INFO    11:37:23:650  14684; dont need to increase unique frame idx
+INFO    11:37:23:650  14684; the init unique frame idx: 1000 - -1
+INFO    11:37:23:651  20320; Thread with name:VideoProcessThread started 
+INFO    11:37:23:651  14684; agora::media::VideoEngine::setCodec: index=1 width=640 height=360 framerate=15
+INFO    11:37:23:651  14684; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:37:23:651  14684; agora::media::VideoEngine::h264WebInteropEnable: enable 0
+INFO    11:37:23:651  14684; agora::media::VideoEngine::setCaptureDevice: index=0
+INFO    11:37:23:667  14684; Camera Name:Integrated Webcam
+INFO    11:37:23:667  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:23:667  14684; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=0
+INFO    11:37:23:667  14684; video fec method 1
+INFO    11:37:23:667  14684; dynamic sending rate control enabled 0.
+
+INFO    11:37:23:667  14684; videoEngine created and initialize here
+INFO    11:37:23:667  14684; agora::media::VideoEngine::CreateVideoSendTrack
+INFO    11:37:23:667  14684; [MIO] updateCapturer: (00000000), type:(1)
+INFO    11:37:23:667  14684; agora::media::VideoEngine::setCaptureDeviceWithNoOption: index=0
+INFO    11:37:23:699  14684; Camera Name:Integrated Webcam
+INFO    11:37:23:699  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:23:699  14684; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    11:37:23:699  14684; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=204F6FC0
+INFO    11:37:23:699  14684; agora::media::VideoEngine::CreateVideoCapturer: interface=204F6FC0
+INFO    11:37:23:699  14684; [MIO] updateLocalRender: (00000000), type:(1)
+INFO    11:37:23:699  14684; agora::media::VideoEngine::CreateAgoraDefaultRender
+INFO    11:37:23:699  14684; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateRenderer, renderer=284E4FE0
+INFO    11:37:23:699  14684; agora::media::VideoEngine::CreateVideoRenderer: interface=284E4FE0
+INFO    11:37:23:699  14684; [MIO] video send track prepared !!
+INFO    11:37:23:699  14684; [che] applyVideoProfile: 1920x1080 30 fps 3150 kbps, min 1 kbps orientationMode 2068281744
+INFO    11:37:23:699  14684; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 1920x1080, fps 30, rate 3150000
+WARN    11:37:23:699  14684; agora::media::VideoEngine::validateVideoParameters: rate 3150000 too small, clip to a larger value.
+INFO    11:37:23:730  14684; Camera Name:Integrated Webcam
+INFO    11:37:23:730  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:23:730  14684; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=3150356
+INFO    11:37:23:730  14684; agora::media::VideoEngine::setCodecRates: set frame rate to 30
+INFO    11:37:23:730  14684; agora::media::VideoEngine::setCodec: index=1 width=640 height=360 framerate=30
+INFO    11:37:23:730  14684; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:37:23:730  13800; Thread with name:VideoEncodeThread stopped
+INFO    11:37:23:731  14276; Thread with name:VideoEncodeThread started 
+INFO    11:37:23:731  14684; Device type: 0
+INFO    11:37:23:731  14684; start check hardware ability
+INFO    11:37:23:953  14684; checker hardware sucess. current encoder:1
+INFO    11:37:23:953  14684; H264 Hardware Encode
+INFO    11:37:23:953  14684; last unique frame idx: 1000 - -1
+INFO    11:37:24:014  14684; Device type: 0
+INFO    11:37:24:014  14684; start check hardware ability
+INFO    11:37:24:239  14684; checker hardware sucess. current encoder:1
+INFO    11:37:24:239  14684; EncoderWrapper::Create hardware_ = 1, hardware_low_ = 0
+INFO    11:37:24:239  14684; low bit rate limit 0
+INFO    11:37:24:384  14684; set last big unique frame idx: 1000
+INFO    11:37:24:384  14684; set last small unique frame idx: -1
+INFO    11:37:24:384  14684; the init unique frame idx: 1000 - -1
+INFO    11:37:24:384  14684; SetTargetWidthHeight width:640, height:360
+INFO    11:37:24:384  14684; agora::media::VideoEngine::setCodecResolution: set to 1920 x 1080
+INFO    11:37:24:384  14684; agora::media::VideoEngine::setCodec: index=1 width=1920 height=1080 framerate=30
+INFO    11:37:24:384  14684; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:37:24:384  14276; Thread with name:VideoEncodeThread stopped
+INFO    11:37:24:385  22376; Thread with name:VideoEncodeThread started 
+INFO    11:37:24:385  14684; Device type: 0
+INFO    11:37:24:385  14684; start check hardware ability
+INFO    11:37:24:610  14684; checker hardware sucess. current encoder:1
+INFO    11:37:24:610  14684; H264 Hardware Encode
+INFO    11:37:24:610  14684; last unique frame idx: 1000 - -1
+INFO    11:37:24:672  14684; Device type: 0
+INFO    11:37:24:672  14684; start check hardware ability
+INFO    11:37:24:904  14684; checker hardware sucess. current encoder:1
+INFO    11:37:24:904  14684; EncoderWrapper::Create hardware_ = 1, hardware_low_ = 0
+INFO    11:37:24:904  14684; low bit rate limit 0
+INFO    11:37:25:058  14684; set last big unique frame idx: 1000
+INFO    11:37:25:058  14684; set last small unique frame idx: -1
+INFO    11:37:25:058  14684; the init unique frame idx: 1000 - -1
+INFO    11:37:25:058  14684; SetTargetWidthHeight width:1920, height:1080
+INFO    11:37:25:058  14684; Set broadcast min br to -1.
+INFO    11:37:25:058  14684; [che] chat engine initialized
+INFO    11:37:25:058  14684; [che] applyVideoProfile: 1920x1080 30 fps 3150 kbps, min 1 kbps orientationMode 514174768
+INFO    11:37:25:058  14684; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 1920x1080, fps 30, rate 3150000
+WARN    11:37:25:058  14684; agora::media::VideoEngine::validateVideoParameters: rate 3150000 too small, clip to a larger value.
+INFO    11:37:25:090  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:090  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:090  14684; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=3150356
+INFO    11:37:25:090  14684; agora::media::VideoEngine::setCodecRates: set frame rate to 30
+INFO    11:37:25:090  14684; agora::media::VideoEngine::setCodec: index=1 width=1920 height=1080 framerate=30
+INFO    11:37:25:090  14684; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:37:25:090  14684; agora::media::VideoEngine::setCodecResolution: set to 1920 x 1080
+INFO    11:37:25:090  14684; Set broadcast min br to -1.
+INFO    11:37:25:122  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:122  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:122  14684; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=204F6FC0
+WARN    11:37:25:122  14684; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    11:37:25:154  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:154  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:154  14684; agora::media::VideoEngine::startCapture: device? 0 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    11:37:25:186  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:186  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:201  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:201  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:202  14684; [rtpSender] set paced sender status 0.
+
+INFO    11:37:25:249  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:250  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:265  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:265  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:297  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:297  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:298  14684; AgoraVideoInput::agora::AgoraVideoInput::Init thread=0, type=100, device=\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:298  14684; AgoraCameraCapture::agora::AgoraCameraCapture::Initialize, device=\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:330  14684; Camera Name:Integrated Webcam
+INFO    11:37:25:330  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:25:485  14684; Camera capability, width:1280 height:720 type:10 fps:30
+INFO    11:37:25:485  14684; Camera capability, width:960 height:540 type:10 fps:30
+INFO    11:37:25:485  14684; Camera capability, width:848 height:480 type:10 fps:30
+INFO    11:37:25:486  14684; Camera capability, width:1280 height:720 type:10 fps:30
+INFO    11:37:25:486  14684; Camera capability, width:640 height:480 type:2 fps:30
+INFO    11:37:25:486  14684; Camera capability, width:160 height:120 type:2 fps:30
+INFO    11:37:25:486  14684; Camera capability, width:320 height:180 type:2 fps:30
+INFO    11:37:25:487  14684; Camera capability, width:320 height:240 type:2 fps:30
+INFO    11:37:25:487  14684; Camera capability, width:424 height:240 type:2 fps:30
+INFO    11:37:25:487  14684; Camera capability, width:640 height:360 type:2 fps:30
+INFO    11:37:25:488  14684; Camera capability, width:1280 height:720 type:2 fps:10
+INFO    11:37:25:488  14684; CreateCapabilityMap 11
+INFO    11:37:26:008  14684; Capture device '\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global,fps:30' initialized.
+INFO    11:37:26:008  14684; capture type:ds capture nRet =0,dscaptrue=913750824
+INFO    11:37:26:008  14684; RegisterCameraCallback called 8613238101536439396
+INFO    11:37:26:008  14684; agora::media::VideoEngine::h264WebInteropEnable: enable 0
+INFO    11:37:26:008  14684; agora::media::VideoEngine::setCodec: index=1 width=1920 height=1080 framerate=30
+INFO    11:37:26:008  14684; agora::media::VideoEngine::setCodec: Intra Request = 0
+INFO    11:37:26:008  14684; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=3150356
+INFO    11:37:26:008  14684; SetTargetWidthHeight width:1920, height:1080
+INFO    11:37:26:008  14684; AgoraVideoInput::agora::AgoraVideoInput::Start width=1920, height=1080, fps=30
+INFO    11:37:26:008  14684; AgoraCameraCapture::agora::AgoraCameraCapture::Start width=1920, height=1080, fps=30, rotation=0
+INFO    11:37:26:171  14684; agora::media::VideoEngine::startCapture: startCapture success
+INFO    11:37:26:171  14684; agora::media::VideoEngine::RequestEncodeKeyFrame
+INFO    11:37:26:171  14684; agora::media::VideoEngine::doStartLocalRender: init? 1 capture id -1 device 0 capturing? 1 rendering? 0
+INFO    11:37:26:171  14684; agora::media::VideoEngine::doStartLocalRender: local render windows 000216C8
+INFO    11:37:26:171  14684; AgoraVideoOutput::agora::AgoraVideoOutput::Init thread=0, type=100, view=000216C8
+INFO    11:37:26:172  14684; AgoraRTC::ModuleVideoRenderImpl::ModuleVideoRenderImpl: prefer renderer 1(flags: 0x00000000)
+INFO    11:37:26:225  14684; Direct3d Device: NVIDIA GeForce GTX 1060 with Max-Q Design 4318 7200 161
+INFO    11:37:26:247  21312; [che] onVideoSizeChanged: uid 0 1920x1080 rotate 0
+INFO    11:37:26:248  22376; Quick Intra Request Received and to Enc Intra now
+
+INFO    11:37:26:513  22376; VQC module init done. stream no 0, mode 1, structure 257, scenario 512, preference 0, preferEnableVQC 1.
+INFO    11:37:26:513  22376; AgoraRTC::WindowsVideoEncoder::isForceIFrame force idr frame.
+ERROR   11:37:26:513  14684; Using D3DTEXF_LINEAR for minification
+ERROR   11:37:26:513  14684; Using D3DTEXF_LINEAR for magnification
+INFO    11:37:26:514  18092; Thread with name:D3D Render started 
+INFO    11:37:26:514  14684; AgoraRTC::VideoRenderWindowsImpl::Init,Render Type:D3D Render,iRet:0
+INFO    11:37:26:514  14684; AgoraVideoOutput::agora::AgoraVideoOutput::Start uid=0, stream_id=0, render_mode=2
+INFO    11:37:26:514  14684; AgoraRTC::IncomingVideoStream::SetStreamListener running for stream 0
+INFO    11:37:26:514  14684; [che] onVideoFrameFrozen: uid 0, frozen false
+INFO    11:37:26:515   3276; Thread with name:IncomingVideoStreamThread started 
+ERROR   11:37:26:515  14684; Not supported.
+INFO    11:37:26:519   3276; Local stream (0) first rendered with resolution 1280 * 720
+INFO    11:37:26:519  18092; AgoraRTC::VideoRenderDirect3D9::UpdateRenderSurface,CreateOffscreenPlainSurface reset call
+INFO    11:37:26:520  22376; AgoraRTC::WindowsVideoEncoder::Encode,current frame type:IDR frame?:3
+INFO    11:37:26:521  22376; VCMEncodedFrameCallback::Encoded frame 1001
+INFO    11:37:26:552  22376; VCMEncodedFrameCallback::Encoded frame 1002
+INFO    11:37:26:554  14684; Camera Name:Integrated Webcam
+INFO    11:37:26:554  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:26:554  14684; agora::media::VideoEngine::doStartLocalRender success
+WARN    11:37:26:554  14684; agora::media::VideoEngine::doStartLocalRender: Local renderer is rendering
+INFO    11:37:26:554  14684; video agora::media::VideoEngine::setPeerVideoMuteStatus: uid 0 muted 0
+INFO    11:37:26:555  14684; ***CALL BEGIN: appid:'96****************************e8' cname:'ttt' info:'{"owner":true,"width":640,"height":480,"bitrate":500}' sid:'11619CBBB2224024AD8483F62A1C935F'
+INFO    11:37:26:555  14684; addRef of media engine, ref=2
+INFO    11:37:26:558  14684; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 10
+INFO    11:37:26:559  14684; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 7
+INFO    11:37:26:559  14684; [tactics] version:2.3.2.101 maxBitrate:3150 1920X1080 30 fps needHandle:1
+INFO    11:37:26:560  14684; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    11:37:26:560  14684; [tactics] parse config for beckon error for tactics size:15
+INFO    11:37:26:566  14684; [vocs] vocs initialized
+INFO    11:37:26:568  14684; CacheManager: save cache to storage elapsed 1
+INFO    11:37:26:568  14684; [cm] emit join channel signal, size=3
+INFO    11:37:26:568  14684; [cm] connection state changed from 1 to 2
+INFO    11:37:26:569  14684; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 10
+INFO    11:37:26:569  14684; agora::media::VideoEngine::adjustCodecFrameRates: adjust frame rate to 7
+INFO    11:37:26:570  14684; [tactics] version:2.3.2.101 maxBitrate:3150 1920X1080 30 fps needHandle:1
+INFO    11:37:26:570  14684; [vocs] lookup channel...
+INFO    11:37:26:570  14684; [vocs] selected: 47.107.39.93:8000
+INFO    11:37:26:570  14684; connecting to 47.107.39.93:8000 handle 36c8bef0, 3668
+INFO    11:37:26:570  14684; [vocs] report bitrate: a/v/t: 50/3150/3200
+INFO    11:37:26:570  14684; [vocs] creating channel with 47.107.39.93:8000, ts 1571801846570.......
+INFO    11:37:26:570  14684; [vocs] selected: 47.96.234.219:1080
+INFO    11:37:26:570  14684; [vocs] report bitrate: a/v/t: 50/3150/3200
+INFO    11:37:26:570  14684; [vocs] creating channel with 47.96.234.219:1080, ts 1571801846570.......
+INFO    11:37:26:570  14684; [vocs] selected: 106.75.133.43:25000
+INFO    11:37:26:570  14684; [vocs] report bitrate: a/v/t: 50/3150/3200
+INFO    11:37:26:570  14684; [vocs] creating channel with 106.75.133.43:25000, ts 1571801846570.......
+INFO    11:37:26:571  14684; [ap] selected: 106.75.87.94:8000
+INFO    11:37:26:571  14684; connecting to 106.75.87.94:8000 handle 36cbeef0, 3648
+INFO    11:37:26:571  14684; [ap] creating channel with 106.75.87.94:8000, ts 55491374, flag: 2
+INFO    11:37:26:571  14684; [ap] selected: 106.75.133.43:1080
+INFO    11:37:26:571  14684; [ap] creating channel with 106.75.133.43:1080, ts 55491374, flag: 2
+INFO    11:37:26:571  14684; [ap] selected: 47.244.4.122:25000
+INFO    11:37:26:571  14684; [ap] creating channel with 47.244.4.122:25000, ts 55491374, flag: 2
+INFO    11:37:26:572  14684; onFirstVideoFrame local 0 resolution 1280 * 720, elapsed 1513
+INFO    11:37:26:606  14684; [vocs/t] tcp create channel connected with 29735F50
+INFO    11:37:26:606  14684; [vocs] report bitrate: a/v/t: 50/3150/3200
+INFO    11:37:26:606  14684; [vocs] tcp - creating channel with 47.107.39.93:8000, ts 1571801846606.......
+INFO    11:37:26:611  14684; [vocs/u] **responsed from 106.75.133.43:25000, 3 vos, elapsed 3739, server ts 1571801846540, wan ip 183******123
+INFO    11:37:26:612  14684; [vos] added server: 115.231.27.100:4009
+INFO    11:37:26:612  14684; [vos] added server: 115.236.96.2:4004
+INFO    11:37:26:612  14684; [vos] added server: 183.134.68.114:4001
+INFO    11:37:26:614  14684; [ch0] vos initialized
+INFO    11:37:26:614  14684; [vos] selected: 183.134.68.114:4001
+ERROR   11:37:26:614  14684; [ch0] login strategy=2
+INFO    11:37:26:614  14684; [ds]: ver 1 ds '{"streamType":5,"clientRole":1}'
+INFO    11:37:26:614  14684; [ch0] Login VOS (proto:11, cid:2596571581, uid:2621696851, ts:1571801846614, ticket size:76 ds:1 stream:+A+VH) 2: 183.134.68.114:4001
+INFO    11:37:26:615  14684; [vocs/u] **responsed from 47.96.234.219:1080, 3 vos, elapsed 3743, server ts 1571801846539, wan ip 183******123
+INFO    11:37:26:616  14684; [ap/u] **responsed from 106.75.133.43:1080, STUN(2).
+INFO    11:37:26:617  14684; [vocs/u] **responsed from 47.107.39.93:8000, 3 vos, elapsed 3745, server ts 1571801846538, wan ip 183******123
+INFO    11:37:26:630  14684; [ap/u] **responsed from 47.244.4.122:25000, STUN(2).
+INFO    11:37:26:642  14684; [ap/u] **responsed from 106.75.87.94:8000, STUN(2).
+INFO    11:37:26:653  22376; VCMEncodedFrameCallback::Encoded frame 1003
+INFO    11:37:26:667  14684; [ch0] **VOS response to login request (res 0 elapsed 3795, server ts 1571801846610, s-c:-57) from 183.134.68.114:4001, and current dest server 183.134.68.114:4001
+INFO    11:37:26:667  14684; updateActiveVosList: ["183.134.68.114:4001"]
+INFO    11:37:26:667  14684; [cm] connection state changed from 2 to 3
+INFO    11:37:26:667  14684; agora::media::VideoEngine::RequestEncodeKeyFrame
+INFO    11:37:26:668  14684; [che] start call begins
+INFO    11:37:26:668  14684; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    11:37:26:668  14684; Set Application Mode in RTC Engine to No. 4
+INFO    11:37:26:668  14684; SetCodec by type : No. 77
+INFO    11:37:26:669  14684; setLoopbackRecording, enabled: false, delay 0, aec 1 
+INFO    11:37:26:669  14684; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+INFO    11:37:26:669  14684; MID = 0, Routing = 0
+INFO    11:37:26:687  14684; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    11:37:26:687  14684; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    11:37:26:687  14684; [WIN_CORE] nChannels      : 2
+INFO    11:37:26:687  14684; [WIN_CORE] nSamplesPerSec : 48000
+INFO    11:37:26:687  14684; [WIN_CORE] wBitsPerSample : 32
+INFO    11:37:26:696  14684; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    11:37:26:696  14684; [WIN_CORE] VoE selected this rendering format:
+INFO    11:37:26:696  14684; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    11:37:26:696  14684; [WIN_CORE] nChannels          : 2
+INFO    11:37:26:696  14684; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    11:37:26:697  14684; [WIN_CORE] wBitsPerSample     : 16
+INFO    11:37:26:781  14684; [WIN_CORE] render Initialize time 0  hr 0
+INFO    11:37:26:781  14684; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    11:37:26:781  14684; [WIN_CORE] render side is now initialized
+INFO    11:37:26:782   2312; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=6303)
+INFO    11:37:26:782   2312; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    11:37:26:782   2312; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    11:37:26:783   2312; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    11:37:26:783   2312; [WIN_CORE] [REND] initial delay        : 30
+INFO    11:37:26:783   2312; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    11:37:26:783  14684; [WIN_CORE] rendering audio stream has now started...
+INFO    11:37:26:785  14684; output: enabled=0
+INFO    11:37:26:785  14684; output: volume=5
+INFO    11:37:26:785  14684; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    11:37:26:785  14684; StartPlayout complete
+INFO    11:37:26:785  14684; StartSend
+INFO    11:37:26:794  14684; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    11:37:26:794  14684; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    11:37:26:794  14684; [WIN_CORE] nChannels      : 2
+INFO    11:37:26:794  14684; [WIN_CORE] nSamplesPerSec : 48000
+INFO    11:37:26:794  14684; [WIN_CORE] wBitsPerSample : 32
+INFO    11:37:26:795  14684; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    11:37:26:795  14684; [WIN_CORE] VoE selected this capturing format:
+INFO    11:37:26:795  14684; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    11:37:26:795  14684; [WIN_CORE] nChannels         : 2
+INFO    11:37:26:795  14684; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    11:37:26:795  14684; [WIN_CORE] wBitsPerSample    : 16
+INFO    11:37:26:805  22376; Quick Intra Request Received and to Enc Intra now
+
+INFO    11:37:26:805  22376; AgoraRTC::WindowsVideoEncoder::isForceIFrame force idr frame.
+INFO    11:37:26:812  22376; AgoraRTC::WindowsVideoEncoder::Encode,current frame type:IDR frame?:3
+INFO    11:37:26:812  22376; VCMEncodedFrameCallback::Encoded frame 1004
+INFO    11:37:26:894  14684; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    11:37:26:894  14684; [WIN_CORE] IAudioClient::GetBufferSize() => 1440 (<=> 5760 bytes)
+INFO    11:37:26:895  14684; [WIN_CORE] capture side is now initialized
+INFO    11:37:26:896  14460; [WIN_CORE] [CAPT] size of buffer       : 1440
+INFO    11:37:26:896  14460; [WIN_CORE] [CAPT] size of sync buffer  : 11520 [bytes]
+INFO    11:37:26:896  14460; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    11:37:26:897  14460; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    11:37:26:897  14460; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    11:37:26:897  14460; [WIN_CORE] [CAPT] endpointBufferSizeMS : 30.00
+INFO    11:37:26:902  14684; [WIN_CORE] capture audio stream has now started...
+INFO    11:37:26:904  14684; output: enabled=0
+INFO    11:37:26:904  14684; => OnWindowsCurrentDeviceChange() : kRecordingDevice micBoost 503319060 max: 30.0 min:  0.0 step: 10.0 level: 20.0 volume:217
+INFO    11:37:26:904  14684; StartRecording complete
+INFO    11:37:26:904  14684; output: kWindowsCoreAudio
+INFO    11:37:26:904  14684;   Output: audioLayer=2
+INFO    11:37:26:904  14684; [che] start call returns 0, elapsed 236
+INFO    11:37:26:904  14684; setNetEQMinimumPlayoutDelay delay(0)
+INFO    11:37:26:904  14684; join channel success: cname 'ttt' uid 2621696851 elapsed 4032
+INFO    11:37:26:904  14684; CacheManager: save cache to storage elapsed 1
+INFO    11:37:26:905  14684; TRACER: onFirstLocalVideoFrame codec 2 elapsed 4033
+INFO    11:37:26:917  14684; [ch0] rtt: 12
+INFO    11:37:26:917  14684; Create participant 2621696851
+INFO    11:37:26:930  14684; onFirstLocalAudioFrame codec 77 elapsed 4058
+INFO    11:37:26:930  14684; TRACER: onFirstLocalAudioFrame codec 77 elapsed 4058
+INFO    11:37:27:084  22376; VCMEncodedFrameCallback::Encoded frame 1005
+INFO    11:37:27:390  22376; VCMEncodedFrameCallback::Encoded frame 1006
+INFO    11:37:27:646  22376; VCMEncodedFrameCallback::Encoded frame 1007
+INFO    11:37:27:950  22376; VCMEncodedFrameCallback::Encoded frame 1008
+INFO    11:37:28:078  22376; VCMEncodedFrameCallback::Encoded frame 1009
+INFO    11:37:28:254  22376; VCMEncodedFrameCallback::Encoded frame 1010
+INFO    11:37:28:558  22376; VCMEncodedFrameCallback::Encoded frame 1011
+INFO    11:37:28:667  14684; agora::media::VideoEngine::notifyPeerCount: cnt 0
+INFO    11:37:28:687  22376; VCMEncodedFrameCallback::Encoded frame 1012
+INFO    11:37:28:847  22376; VCMEncodedFrameCallback::Encoded frame 1013
+INFO    11:37:28:991  22376; VCMEncodedFrameCallback::Encoded frame 1014
+INFO    11:37:29:119  22376; VCMEncodedFrameCallback::Encoded frame 1015
+INFO    11:37:29:248  22376; VCMEncodedFrameCallback::Encoded frame 1016
+INFO    11:37:29:423  22376; VCMEncodedFrameCallback::Encoded frame 1017
+INFO    11:37:29:551  22376; VCMEncodedFrameCallback::Encoded frame 1018
+INFO    11:37:29:567  21312; AgoraRTC::videocapturemodule::VideoCaptureImpl::printFrameLog :width 1280, height 720,ystride:0,frame type:10
+INFO    11:37:29:679  22376; VCMEncodedFrameCallback::Encoded frame 1019
+INFO    11:37:30:608  14684; [tactics] onStatVideo rtt Bwe speaker video jitter:2:2:2 lost(400/800/5000):0/0/0 rtt:5 maxbw:645
+
+INFO    11:37:30:667  14684; [tactics] video send param stable count: 8, freeze cnt: 0, freeze_time: 0
+INFO    11:37:32:107  14684; [tactics] onStatVideo rtt Bwe speaker video jitter:1:1:1 lost(400/800/5000):0/0/0 rtt:5 maxbw:387
+
+INFO    11:37:32:672  14684; [tactics] video send param stable count: 3, freeze cnt: 0, freeze_time: 0
+INFO    11:37:32:675   9452; API call to stop preview
+INFO    11:37:32:675   9452; API call to leave channel
+INFO    11:37:32:675  14684; [rp] {"rtc.video.preview":false}
+ERROR   11:37:32:675  14684; API call failed to stop video preview due to not in idle mode
+INFO    11:37:32:676  14684; [cm] emit leave channel signal
+INFO    11:37:32:798   2312; Audio statistics - play count: playout count = 201  signal level: far_in = 0
+INFO    11:37:32:920  14460; Audio statistics - rec count: record count = 200 signal level: near_in = 90, near_out = 73 encode_in = 90
+INFO    11:37:32:928  21312; AgoraRTC::videocapturemodule::VideoCaptureImpl::printFrameLog :width 1280, height 720,ystride:0,frame type:10
+INFO    11:37:32:998  14684; agora::media::VideoEngine::stopLocalRender
+INFO    11:37:32:998  14684; AgoraVideoOutput::agora::AgoraVideoOutput::Stop
+INFO    11:37:33:000   3276; Thread with name:IncomingVideoStreamThread stopped
+WARN    11:37:33:000  14684; AgoraRTC::IncomingVideoStream::Stop: Not running
+INFO    11:37:33:001  14684; AgoraVideoOutput::agora::AgoraVideoOutput::Destroy
+INFO    11:37:33:001  18092; Thread with name:D3D Render stopped
+INFO    11:37:33:017  14684; agora::media::VideoEngine::stopLocalRender success
+INFO    11:37:33:017  14684; AgoraVideoInput::agora::AgoraVideoInput::Stop
+INFO    11:37:33:017  14684; AgoraCameraCapture::agora::AgoraCameraCapture::Stop
+INFO    11:37:33:263  14684; AgoraVideoInput::agora::AgoraVideoInput::Destroy
+INFO    11:37:33:263  14684; AgoraCameraCapture::agora::AgoraCameraCapture::Dispose
+INFO    11:37:33:285  14684; agora::media::VideoEngine::stopCapture: stopCapture success
+INFO    11:37:33:285  14684; [rtpSender] set paced sender status 0.
+
+INFO    11:37:33:285  14684; agora::media::VideoEngine::stopRemoteRender
+INFO    11:37:33:285  14684; agora::media::VideoEngine::stopRemoteVideo: uid=2621696851
+INFO    11:37:33:286  14684; [che] stopCall begins
+INFO    11:37:33:286  14684; [WIN_CORE] closing down the agora_core_audio_capture_thread...
+INFO    11:37:33:287  14460; [WIN_CORE] _Capturing thread is now terminated properly
+INFO    11:37:33:296  14684; [WIN_CORE] agora_core_audio_capture_thread is now closed
+INFO    11:37:33:296  14684; StopRecording complete
+INFO    11:37:33:296  14684; [WIN_CORE] closing down the agora_core_audio_render_thread...
+INFO    11:37:33:319   2312; [WIN_CORE] _Rendering thread is now terminated properly
+INFO    11:37:33:320  14684; [WIN_CORE] agora_core_audio_render_thread is now closed
+INFO    11:37:33:322  14684; StopPlayout complete
+INFO    11:37:33:323  14684; [che] stop call returns 0, elapsed 37
+INFO    11:37:33:323  14684; [rs] **report stats: seq: 46, report list size 6, tx/rx: 8161/1920, cache size: 0
+INFO    11:37:33:323  14684; [cm] connection state changed from 3 to 1
+INFO    11:37:33:323  14684; **CALL STATS: duration 6s, tx 308.83K bytes, rx 7.144K bytes, total 315.227K bytes
+INFO    11:37:33:324  14684; CacheManager: save cache to storage elapsed 0
+INFO    11:37:33:330  14684; [ch0] vos destroyed
+INFO    11:37:33:332  14684; delRef of media engine, ref=1
+INFO    11:37:33:332  14684; ***CALL END
+INFO    11:37:33:332  14684; [cc] setLocalMuteAudioState: false, priority: 4
+INFO    11:37:33:332  14684; setMuteStatus, muted: Off
+INFO    11:37:33:332  14684; [cc] setLocalMuteVideoState: false, priority: 4
+INFO    11:37:33:332  14684; SetAudioFallback 0
+INFO    11:37:33:332  14684; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    11:37:33:332  14684; onAudioStatusChanged enable audio
+INFO    11:37:33:333  14684; [rp] {"rtc.video.mute_me":false,"che.video.local.send":true}
+INFO    11:37:33:333  14684; [cc] setLocalMuteVideoState: false, priority: 4
+INFO    11:37:33:333  14684; SetAudioFallback 0
+INFO    11:37:33:333  14684; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    11:37:33:333  14684; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    11:37:33:333  14684; [cc] setLocalMuteAudioState: false, priority: 4
+INFO    11:37:33:333  14684; setMuteStatus, muted: Off
+INFO    11:37:33:333  14684; [rp] {"che.video.stop_screen_capture":true}
+INFO    11:37:33:334  14684; [MIO] updateCapturer: (00000000), type:(1)
+INFO    11:37:33:334  14684; agora::media::VideoEngine::setCaptureDeviceWithNoOption: index=0
+INFO    11:37:33:366  14684; Camera Name:Integrated Webcam
+INFO    11:37:33:366  14684; Camera uniqueID:\\?\usb#vid_0bda&pid_568a&mi_00#6&1ac3aa3a&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    11:37:33:366  14684; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    11:37:33:366  14684; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=204F6FC0
+WARN    11:37:33:366  14684; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+Local Date: 11‘¬ 03 2019 Local Time: 19:30:53
+Build info: Aug 28 2019 16:19:29 r
+
+INFO    19:30:53:741  15280; [rp] {"rtc.channel_profile":1}
+INFO    19:30:53:743  15280; [rp] {"rtc.video.enabled":true}
+INFO    19:30:53:743  15280; API call to enable video
+INFO    19:30:53:744  15280; [rp] {"rtc.client_role":1}
+INFO    19:30:53:744  15280; set client role to broadcaster
+INFO    19:30:53:749  15280; [rlbs/u] responsed from 52.80.192.229:9700 with servers 114.236.93.137:8913
+INFO    19:30:53:749  15280; [rs] updateServers 114.236.93.137:8913, priority 3
+INFO    19:30:53:749  15280; [rs] updateServers 183.134.68.101:8913, priority 3
+INFO    19:30:53:749  15280; [rs] updateServers 117.34.213.37:8913, priority 3
+INFO    19:30:53:753  15280; [ap/u] **responsed from 47.107.39.93:25000, TDS(64).
+INFO    19:30:53:753  15280; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    19:30:53:755  15280; [ap/u] **responsed from 47.107.39.93:25000, CDS(8).
+INFO    19:30:53:756  15280; [ap] onAPCdsRes success with config: ∏∆êØﬂ‘⁄§ó—˙ œü·íñ≤¬€‹≠∆…‚ÉÖëæ
+INFO    19:30:53:756  15280; [cs] applied directly: {"configs":{},"version":"27"}, elapsed: 0
+INFO    19:30:53:761  15280; CacheManager: save cache to storage elapsed 2
+INFO    19:30:53:780  15280; [ap/u] **responsed from 54.223.118.211:1080, CDS(8).
+INFO    19:30:53:784  15280; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    19:30:53:785  15280; [ap/u] **responsed from 47.74.211.17:8000, CDS(8).
+INFO    19:30:53:786  15280; [ap/u] **responsed from 47.74.211.17:8000, TDS(64).
+INFO    19:30:53:853  15280; [dns] parsed ip 42.81.57.169
+INFO    19:30:53:853  15280; [dns] parsed ip 183.134.68.101
+INFO    19:30:53:853  15280; [rs] dns parse result code: 0, servers size: 2
+INFO    19:30:53:853  15280; [rs] updateServers 42.81.57.169:8000, priority 2
+INFO    19:30:53:853  15280; [rs] updateServers 183.134.68.101:8000, priority 2
+INFO    19:30:53:858  15280; [dns] parsed ip 101.201.199.195
+INFO    19:30:53:858  15280; [dns] parsed ip 118.190.148.38
+INFO    19:30:53:859  15280; [ap] onParsedDns with err 0, 101.201.199.195, 118.190.148.38, 
+INFO    19:30:58:274  15280; [rs] **report stats: seq: 13, report list size 0, tx/rx: 1669/624, cache size: 0
+Local Date: 11‘¬ 03 2019 Local Time: 19:37:06
+Build info: Aug 28 2019 16:19:29 r
+
+INFO    19:37:06:020  23680; [rp] {"rtc.channel_profile":1}
+INFO    19:37:06:022  23680; [rp] {"rtc.video.enabled":true}
+INFO    19:37:06:022  23680; API call to enable video
+INFO    19:37:06:023  23680; [rp] {"rtc.client_role":1}
+INFO    19:37:06:024  23680; set client role to broadcaster
+INFO    19:37:06:027  23680; [rlbs/u] responsed from 52.80.192.229:9700 with servers 117.21.184.25:8913
+INFO    19:37:06:027  23680; [rs] updateServers 117.21.184.25:8913, priority 3
+INFO    19:37:06:027  23680; [rs] updateServers 114.236.138.38:8913, priority 3
+INFO    19:37:06:027  23680; [rs] updateServers 42.81.57.169:8913, priority 3
+INFO    19:37:06:032  23680; [dns] parsed ip 183.134.68.101
+INFO    19:37:06:032  23680; [dns] parsed ip 42.81.57.169
+INFO    19:37:06:032  23680; [rs] dns parse result code: 0, servers size: 2
+INFO    19:37:06:032  23680; [rs] updateServers 183.134.68.101:8000, priority 2
+INFO    19:37:06:032  23680; [rs] updateServers 42.81.57.169:8000, priority 2
+INFO    19:37:06:035  23680; [ap/u] **responsed from 47.107.39.93:25000, TDS(64).
+INFO    19:37:06:035  23680; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    19:37:06:059  23680; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    19:37:06:065  23680; [ap/u] **responsed from 47.74.211.17:8000, TDS(64).
+INFO    19:37:06:166  23680; [dns] parsed ip 118.190.148.38
+INFO    19:37:06:166  23680; [dns] parsed ip 101.201.199.195
+INFO    19:37:06:166  23680; [ap] onParsedDns with err 0, 118.190.148.38, 101.201.199.195, 
+INFO    19:37:10:574  23680; [rs] **report stats: seq: 9, report list size 0, tx/rx: 1206/432, cache size: 0
