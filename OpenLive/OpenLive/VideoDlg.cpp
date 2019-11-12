@@ -1091,7 +1091,7 @@ void CVideoDlg::InitCtrls()
 		m_wndVideo[nIndex].SetFaceColor(RGB(0x58, 0x58, 0x58));
 	}
 
-	m_wndLocal.Create(NULL, NULL, WS_CHILD | WS_VISIBLE | WS_BORDER, CRect(0, 0, 1, 1), this, IDC_BASEWND_VIDEO + MAX_VIDEOS);
+	m_wndLocal.Create(NULL, NULL, WS_CHILD | WS_VISIBLE | WS_BORDER | WS_CLIPCHILDREN | WS_CLIPSIBLINGS, CRect(0, 0, 1, 1), this, IDC_BASEWND_VIDEO + MAX_VIDEOS);
 	m_wndLocal.SetParent(this);
 	m_wndLocal.SetBackImage(IDB_BACKGROUND_VIDEO, 96, 96, RGB(0x44, 0x44, 0x44));
 	m_wndLocal.SetFaceColor(RGB(0x58, 0x58, 0x58));
