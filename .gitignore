@@ -34,3 +34,6 @@
 .suo
 release/
 Debug/
+ipch/
+Openlive/*.sdf
+Openlive/*.suo
